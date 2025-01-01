@@ -1,352 +1,130 @@
-[07:37:29] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.3
-[07:37:30] [main/INFO]: Loading 65 mods:
-	- balm-fabric 21.0.22
-	   \-- kuma_api 21.0.5-SNAPSHOT
-	- biomesoplenty 21.1.0.7
-	- chunky 1.4.16
-	- fabric-api 0.114.0+1.21.1
-	   |-- fabric-api-base 0.4.42+6573ed8c19
-	   |-- fabric-api-lookup-api-v1 1.6.70+b559734419
-	   |-- fabric-biome-api-v1 13.0.31+d527f9fd19
-	   |-- fabric-block-api-v1 1.0.22+0af3f5a719
-	   |-- fabric-block-view-api-v2 1.0.10+6573ed8c19
-	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
-	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c19
-	   |-- fabric-command-api-v1 1.2.49+f71b366f19
-	   |-- fabric-command-api-v2 2.2.28+6ced4dd919
-	   |-- fabric-commands-v0 0.2.66+df3654b319
-	   |-- fabric-content-registries-v0 8.0.18+b559734419
-	   |-- fabric-convention-tags-v1 2.1.2+7f945d5b19
-	   |-- fabric-convention-tags-v2 2.9.2+e60e56d419
-	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
-	   |-- fabric-data-attachment-api-v1 1.4.0+da19b51a19
-	   |-- fabric-data-generation-api-v1 20.2.25+16c4ae2519
-	   |-- fabric-dimensions-v1 4.0.0+6fc22b9919
-	   |-- fabric-entity-events-v1 1.7.0+2122d82819
-	   |-- fabric-events-interaction-v0 0.7.13+ba9dae0619
-	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
-	   |-- fabric-item-api-v1 11.1.1+d5debaed19
-	   |-- fabric-item-group-api-v1 4.1.6+6823f7cd19
-	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
-	   |-- fabric-keybindings-v0 0.2.45+df3654b319
-	   |-- fabric-lifecycle-events-v1 2.5.0+01d9a51c19
-	   |-- fabric-loot-api-v2 3.0.15+3f89f5a519
-	   |-- fabric-loot-api-v3 1.0.3+3f89f5a519
-	   |-- fabric-message-api-v1 6.0.13+6573ed8c19
-	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6b19
-	   |-- fabric-networking-api-v1 4.3.0+c7469b2119
-	   |-- fabric-object-builder-api-v1 15.2.1+40875a9319
-	   |-- fabric-particles-v1 4.0.2+6573ed8c19
-	   |-- fabric-recipe-api-v1 5.0.14+248df81c19
-	   |-- fabric-registry-sync-v0 5.2.0+34f5d91419
-	   |-- fabric-renderer-api-v1 3.4.0+c705a49c19
-	   |-- fabric-renderer-indigo 1.7.0+c705a49c19
-	   |-- fabric-renderer-registries-v1 3.2.68+df3654b319
-	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2e19
-	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
-	   |-- fabric-rendering-v0 1.1.71+df3654b319
-	   |-- fabric-rendering-v1 5.0.5+df16efd019
-	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
-	   |-- fabric-resource-loader-v0 1.3.1+5b5275af19
-	   |-- fabric-screen-api-v1 2.0.25+8b68f1c719
-	   |-- fabric-screen-handler-api-v1 1.3.88+b559734419
-	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
-	   |-- fabric-transfer-api-v1 5.4.2+c24bd99419
-	   \-- fabric-transitive-access-wideners-v1 6.2.0+45b9699719
-	- fabricloader 0.16.3
-	   \-- mixinextras 0.4.1
-	- geckolib 4.5.8
-	- glitchcore 2.1.0.0
-	   |-- com_electronwill_night-config_core 3.6.7
-	   |-- com_electronwill_night-config_toml 3.6.7
-	   \-- net_jodah_typetools 0.6.3
-	- hardcorerevival 21.1.5
-	- immersive_aircraft 1.1.6+1.21.1
-	   \-- org_mariuszgromada_math_mathparser_org-mxparser 5.2.1
-	- java 21
-	- jei 19.21.0.247
-	- justzoom 2.0.0
-	- konkrete 1.9.9
-	- minecraft 1.21.1
-	- mr_vanilla_backpacks 1.2.1
-	- pointblank 1.9.6
-	- terrablender 4.1.0.0
-	   |-- com_electronwill_night-config_core 3.6.7
-	   \-- com_electronwill_night-config_toml 3.6.7
-	- terralith 2.5.7
-	- walljump 1.21.1-1.3.1-fabric
-	   |-- configlibtxf 7.2.6-fabric
-	   \-- keybindfixtxf 1.1.1
-	- xaerominimap 24.7.1
-	- xaeroworldmap 1.39.2
-[07:37:30] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server-tecnico/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[07:37:30] [main/INFO]: Compatibility level set to JAVA_17
-[07:37:30] [main/INFO]: Compatibility level set to JAVA_21
-[07:37:31] [main/WARN]: Error loading class: net/minecraft/class_7766 (java.lang.ClassNotFoundException: net/minecraft/class_7766)
-[07:37:31] [main/WARN]: @Mixin target net.minecraft.class_7766 was not found pointblank.fabric.mixins.json:SpriteLoaderMixin from mod pointblank
-[07:37:31] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[07:37:31] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[07:37:41] [main/ERROR]: No data fixer registered for biomesoplenty:boat
-[07:37:41] [main/ERROR]: No data fixer registered for biomesoplenty:chest_boat
-[07:37:41] [main/ERROR]: No data fixer registered for anomaly
-[07:37:41] [main/ERROR]: No data fixer registered for immersive_aircraft:gyrodyne
-[07:37:41] [main/ERROR]: No data fixer registered for immersive_aircraft:biplane
-[07:37:41] [main/ERROR]: No data fixer registered for immersive_aircraft:airship
-[07:37:41] [main/ERROR]: No data fixer registered for immersive_aircraft:cargo_airship
-[07:37:41] [main/ERROR]: No data fixer registered for immersive_aircraft:warship
-[07:37:41] [main/ERROR]: No data fixer registered for immersive_aircraft:quadrocopter
-[07:37:41] [main/ERROR]: No data fixer registered for immersive_aircraft:bullet
-[07:37:41] [main/ERROR]: No data fixer registered for immersive_aircraft:tiny_tnt
-[07:37:41] [main/WARN]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
-[07:37:41] [main/INFO]: [KONKRETE] Loading v1.9.9 in server-side mode on FABRIC!
-[07:37:41] [main/INFO]: ---------------------------
-[07:37:41] [main/INFO]: KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
-[07:37:41] [main/INFO]:  
-[07:37:41] [main/INFO]: Open Imaging Copyright © 2014 Dhyan Blum.
-[07:37:41] [main/INFO]: Open Imaging is licensed under Apache-2.0.
-[07:37:41] [main/INFO]:  
-[07:37:41] [main/INFO]: JsonPath Copyright © 2017 Jayway.
-[07:37:41] [main/INFO]: JsonPath is licensed under Apache-2.0.
-[07:37:41] [main/INFO]:  
-[07:37:41] [main/INFO]: Json-smart Copyright © netplex.
-[07:37:41] [main/INFO]: Json-smart is licensed under Apache-2.0.
-[07:37:41] [main/INFO]:  
-[07:37:41] [main/INFO]: Exp4j Copyright © Frank Asseg.
-[07:37:41] [main/INFO]: Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
-[07:37:41] [main/INFO]: ---------------------------
-[07:37:41] [main/INFO]: [KONKRETE] Server-side modules initialized and ready to use!
-[07:37:41] [main/INFO]: Loading mod pointblank
-[07:37:41] [main/INFO]: [STDERR]: java.nio.file.NoSuchFileException: ./pointblank
-[07:37:41] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
-[07:37:41] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixException.asIOException(UnixException.java:115)
-[07:37:41] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixFileSystemProvider.newDirectoryStream(UnixFileSystemProvider.java:477)
-[07:37:41] [main/INFO]: [STDERR]: 	at java.base/java.nio.file.Files.newDirectoryStream(Files.java:481)
-[07:37:41] [main/INFO]: [STDERR]: 	at com.vicmatskiv.pointblank.registry.ExtensionRegistry.scanExtensions(ExtensionRegistry.java:426)
-[07:37:41] [main/INFO]: [STDERR]: 	at com.vicmatskiv.pointblank.registry.ExtensionRegistry.discoverExtensions(ExtensionRegistry.java:263)
-[07:37:41] [main/INFO]: [STDERR]: 	at com.vicmatskiv.pointblank.PointBlankInitializer.init(PointBlankInitializer.java:37)
-[07:37:41] [main/INFO]: [STDERR]: 	at com.vicmatskiv.pointblank.PointBlankMod.onInitialize(PointBlankMod.java:9)
-[07:37:41] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:399)
-[07:37:41] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:63)
-[07:37:41] [main/INFO]: [STDERR]: 	at net.minecraft.server.Main.main(Main.java:111)
-[07:37:41] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
-[07:37:41] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
-[07:37:41] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
-[07:37:41] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
-[07:37:41] [main/INFO]: [STDERR]: 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)
-[07:37:42] [main/ERROR]: No data fixer registered for javelin_rocket
-[07:37:42] [main/ERROR]: No data fixer registered for grenade
-[07:37:42] [main/ERROR]: No data fixer registered for at4_rocket
-[07:37:42] [main/ERROR]: No data fixer registered for grenade40mm
-[07:37:42] [main/ERROR]: No data fixer registered for grenade20mm
-[07:37:42] [main/ERROR]: No data fixer registered for smaw_rocket
-[07:37:42] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[07:37:42] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[07:37:42] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[07:37:42] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[07:37:42] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[07:37:42] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[07:37:42] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[07:37:42] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[07:37:42] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[07:37:42] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[07:37:46] [main/ERROR]: Parsing error loading recipe pointblank:g3
-com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minecraft:gold_ingot"}]; No key item in MapLike[{"count":5,"id":"minecraft:gold_ingot"}]; No key tag in MapLike[{"count":9,"id":"minecraft:iron_ingot"}]; No key item in MapLike[{"count":9,"id":"minecraft:iron_ingot"}]
-	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
-	at net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43498(class_156.java:1024) [server-intermediary.jar:?]
-	at net.minecraft.class_156.method_43499(class_156.java:1012) [server-intermediary.jar:?]
-	at net.minecraft.server.Main.main(Main.java:182) [server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
-[07:37:46] [main/INFO]: Loaded 1848 recipes
-[07:37:46] [main/INFO]: Loaded 1728 advancements
-[07:37:48] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[07:37:48] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[07:37:48] [main/INFO]: Applied 0 biome modifications to 0 of 229 new biomes in 2.778 ms
-[07:37:48] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[07:37:48] [Server thread/INFO]: Loading properties
-[07:37:48] [Server thread/INFO]: Default game type: SURVIVAL
-[07:37:48] [Server thread/INFO]: Generating keypair
-[07:37:48] [Server thread/INFO]: Starting Minecraft server on *:25565
-[07:37:48] [Server thread/INFO]: Using epoll channel type
-[07:37:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[07:37:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[07:37:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[07:37:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[07:37:48] [Server thread/INFO]: Preparing level "world"
-[07:37:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[07:37:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[07:37:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[07:37:57] [Server thread/INFO]: Time elapsed: 669 ms
-[07:37:57] [Server thread/INFO]: Done (8.962s)! For help, type "help"
-[07:37:57] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[07:37:57] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
-[07:38:05] [Server thread/INFO]: ALVAREZ_QWA[/[0:0:0:0:0:0:0:1%0]:43232] logged in with entity id 6 at (-478.35772049694384, 6.0, 2361.6701043376042)
-[07:38:05] [Server thread/INFO]: ALVAREZ_QWA joined the game
-[07:38:12] [Server thread/INFO]: reinaldoelpive[/[0:0:0:0:0:0:0:1%0]:34456] logged in with entity id 297 at (-478.30000001192093, 44.0, 2361.4005837516193)
-[07:38:12] [Server thread/INFO]: reinaldoelpive joined the game
-[07:38:19] [Server thread/INFO]: [reinaldoelpive: Teleported reinaldoelpive to ALVAREZ_QWA]
-[07:38:35] [Server thread/INFO]: ALVAREZ_QWA lost connection: Timed out
-[07:38:35] [Server thread/INFO]: ALVAREZ_QWA left the game
-[07:38:35] [Server thread/WARN]: handleDisconnection() called twice
-[07:38:45] [Server thread/INFO]: ALVAREZ_QWA[/[0:0:0:0:0:0:0:1%0]:55174] logged in with entity id 1140 at (-478.30000001192093, 5.0, 2359.639098076219)
-[07:38:45] [Server thread/INFO]: ALVAREZ_QWA joined the game
-[07:41:44] [Server thread/INFO]: ALVAREZ_QWA was slain by reinaldoelpive
-[07:42:13] [Server thread/INFO]: ALVAREZ_QWA died
-[07:42:58] [Server thread/INFO]: ALVAREZ_QWA died
-[07:43:17] [Server thread/INFO]: ALVAREZ_QWA died
-[07:43:31] [Server thread/INFO]: ALVAREZ_QWA died
-[07:43:50] [Server thread/INFO]: ALVAREZ_QWA died
-[07:44:24] [Server thread/INFO]: ALVAREZ_QWA died
-[07:46:19] [Server thread/INFO]: ALVAREZ_QWA was slain by reinaldoelpive
-[07:46:42] [Server thread/INFO]: [reinaldoelpive: Revived ALVAREZ_QWA]
-[07:47:05] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
-[07:47:15] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[07:48:08] [Server thread/INFO]: ALVAREZ_QWA was slain by reinaldoelpive
-[07:48:36] [Server thread/INFO]: ALVAREZ_QWA died
-[07:52:05] [Server thread/INFO]: reinaldoelpive was slain by ALVAREZ_QWA
-[07:52:08] [Server thread/INFO]: reinaldoelpive was not rescued in time
-[07:52:33] [Server thread/INFO]: reinaldoelpive hit the ground too hard
-[07:53:08] [Server thread/INFO]: reinaldoelpive died
-[07:53:25] [Server thread/INFO]: reinaldoelpive died
-[07:54:58] [Server thread/INFO]: reinaldoelpive was slain by ALVAREZ_QWA
-[07:55:02] [Server thread/WARN]: reinaldoelpive was kicked for floating too long!
-[07:55:02] [Server thread/INFO]: reinaldoelpive lost connection: Flying is not enabled on this server
-[07:55:02] [Server thread/INFO]: reinaldoelpive left the game
-[07:55:02] [Server thread/WARN]: handleDisconnection() called twice
-[07:55:17] [Server thread/INFO]: reinaldoelpive[/[0:0:0:0:0:0:0:1%0]:33000] logged in with entity id 4552 at (-443.8641858244447, 120.00133597911214, 2368.481285076436)
-[07:55:17] [Server thread/INFO]: reinaldoelpive joined the game
-[07:55:45] [Server thread/INFO]: reinaldoelpive died
-[07:56:56] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
-[07:56:57] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[07:57:33] [Server thread/INFO]: ALVAREZ_QWA was slain by reinaldoelpive
-[07:58:22] [Server thread/INFO]: ALVAREZ_QWA died
-[07:58:42] [Server thread/INFO]: ALVAREZ_QWA died
-[07:59:18] [Server thread/INFO]: ALVAREZ_QWA was slain by reinaldoelpive
-[08:00:16] [Server thread/INFO]: reinaldoelpive was slain by ALVAREZ_QWA
-[08:00:17] [Server thread/INFO]: reinaldoelpive lost connection: Timed out
-[08:00:17] [Server thread/INFO]: reinaldoelpive left the game
-[08:11:55] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[08:11:55] [Server thread/INFO]: fuera de aqui<--[HERE]
-[08:21:25] [Server thread/INFO]: ALVAREZ_QWA died
-[08:21:49] [Server thread/INFO]: ALVAREZ_QWA lost connection: Timed out
-[08:21:49] [Server thread/INFO]: ALVAREZ_QWA left the game
-[08:22:28] [Server thread/INFO]: No entity was found
-[08:22:38] [Server thread/INFO]: ALVAREZ_QWA[/[0:0:0:0:0:0:0:1%0]:55310] logged in with entity id 11195 at (-446.7562920043459, 119.0, 2381.699999988079)
-[08:22:38] [Server thread/INFO]: ALVAREZ_QWA joined the game
-[08:22:58] [Server thread/INFO]: Revived ALVAREZ_QWA
-[08:26:08] [Server thread/INFO]: reinaldoelpive[/[0:0:0:0:0:0:0:1%0]:51998] logged in with entity id 13704 at (-445.50466338844603, 120.0, 2375.758013855892)
-[08:26:08] [Server thread/INFO]: reinaldoelpive joined the game
-[08:27:08] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
-[08:27:33] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[08:28:23] [Server thread/INFO]: reinaldoelpive lost connection: Timed out
-[08:28:23] [Server thread/INFO]: reinaldoelpive left the game
-[08:31:23] [Server thread/INFO]: ALVAREZ_QWA lost connection: Timed out
-[08:31:23] [Server thread/INFO]: ALVAREZ_QWA left the game
-[08:34:56] [Server thread/INFO]: ALVAREZ_QWA[/[0:0:0:0:0:0:0:1%0]:52702] logged in with entity id 15160 at (-448.6474742782059, 119.162141421027, 2372.620545543823)
-[08:34:56] [Server thread/INFO]: ALVAREZ_QWA joined the game
-[08:37:00] [Server thread/WARN]: ALVAREZ_QWA was kicked for floating a vehicle too long!
-[08:37:00] [Server thread/INFO]: ALVAREZ_QWA lost connection: Flying is not enabled on this server
-[08:37:00] [Server thread/INFO]: ALVAREZ_QWA left the game
-[08:37:09] [Server thread/INFO]: ALVAREZ_QWA[/[0:0:0:0:0:0:0:1%0]:47082] logged in with entity id 17122 at (-440.9200661594318, 124.5411605834961, 2358.4126924504662)
-[08:37:09] [Server thread/INFO]: ALVAREZ_QWA joined the game
-[08:37:54] [Server thread/WARN]: ALVAREZ_QWA was kicked for floating a vehicle too long!
-[08:37:54] [Server thread/INFO]: ALVAREZ_QWA lost connection: Flying is not enabled on this server
-[08:37:54] [Server thread/INFO]: ALVAREZ_QWA left the game
-[08:39:01] [Server thread/INFO]: ALVAREZ_QWA[/[0:0:0:0:0:0:0:1%0]:56970] logged in with entity id 18583 at (-402.2677481278441, 121.254638671875, 2441.4303320518748)
-[08:39:01] [Server thread/INFO]: ALVAREZ_QWA joined the game
-[08:39:33] [Server thread/WARN]: ALVAREZ_QWA moved wrongly!
-[08:40:29] [Server thread/INFO]: reinaldoelpive[/[0:0:0:0:0:0:0:1%0]:53312] logged in with entity id 20365 at (-447.1834212193794, 119.0, 2372.300000011921)
-[08:40:29] [Server thread/INFO]: reinaldoelpive joined the game
-[08:46:27] [Server thread/WARN]: ALVAREZ_QWA moved wrongly!
-[08:46:28] [Server thread/INFO]: ALVAREZ_QWA was slain by Zombie
-[08:46:47] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
-[08:47:28] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[08:47:31] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
-[08:47:40] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[08:47:50] [Server thread/INFO]: ALVAREZ_QWA died
-[08:47:50] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
-[08:48:11] [Server thread/INFO]: [reinaldoelpive: Made ALVAREZ_QWA a server operator]
-[08:48:29] [Server thread/INFO]: ALVAREZ_QWA died
-[08:48:44] [Server thread/INFO]: [ALVAREZ_QWA: Set own game mode to Creative Mode]
-[08:48:54] [Server thread/INFO]: Named entity class_1506['██████████'/18614, l='ServerLevel[world]', x=-438.30, y=117.00, z=2384.70] died: ██████████ was blown up by reinaldoelpive
-[08:49:01] [Server thread/INFO]: Named entity class_1495['██████████'/18667, l='ServerLevel[world]', x=-432.70, y=117.00, z=2382.28] died: ██████████ was blown up by reinaldoelpive
-[08:49:01] [Server thread/INFO]: Named entity class_1495['██████████'/18668, l='ServerLevel[world]', x=-434.10, y=117.00, z=2382.03] died: ██████████ was blown up by reinaldoelpive
-[08:51:01] [Server thread/INFO]: [reinaldoelpive: Teleported reinaldoelpive to ALVAREZ_QWA]
-[08:51:40] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[08:51:46] [Server thread/INFO]: [ALVAREZ_QWA: Set own game mode to Survival Mode]
-[08:51:47] [Server thread/INFO]: ALVAREZ_QWA died
-[08:52:05] [Server thread/INFO]: ALVAREZ_QWA was not rescued in time
-[08:52:15] [Server thread/INFO]: [ALVAREZ_QWA: Set own game mode to Creative Mode]
-[08:52:18] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
-[08:52:21] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[08:52:23] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
-[08:54:50] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[08:54:53] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
-[08:56:00] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[08:56:08] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
-[08:56:33] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[08:56:34] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
-[08:56:43] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[08:57:25] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
-[08:58:53] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[08:59:06] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
-[09:03:06] [Server thread/INFO]: [reinaldoelpive: The player idle timeout is now 100000 minute(s)]
-[09:03:11] [Server thread/INFO]: [reinaldoelpive: The player idle timeout is now 10000000 minute(s)]
-[09:03:16] [Server thread/INFO]: [reinaldoelpive: The player idle timeout is now 20000 minute(s)]
-[09:03:40] [Server thread/INFO]: [reinaldoelpive: The player idle timeout is now 134567890 minute(s)]
-[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:max_health'
-[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:movement_speed'
-[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:follow_range'
-[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:max_health'
-[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:movement_speed'
-[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:follow_range'
-[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:max_health'
-[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:movement_speed'
-[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:follow_range'
-[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:max_health'
-[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:movement_speed'
-[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:follow_range'
-[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:max_health'
-[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:movement_speed'
-[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:follow_range'
-[09:07:35] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[09:07:43] [Server thread/INFO]: [ALVAREZ_QWA: Set own game mode to Survival Mode]
-[09:08:08] [Server thread/INFO]: ALVAREZ_QWA was slain by reinaldoelpive
-[09:08:55] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
-[09:09:20] [Server thread/INFO]: [ALVAREZ_QWA: Set own game mode to Creative Mode]
-[09:10:41] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[09:10:54] [Server thread/INFO]: [ALVAREZ_QWA: Set own game mode to Survival Mode]
-[09:11:54] [Server thread/INFO]: ALVAREZ_QWA was slain by reinaldoelpive
-[09:12:34] [Server thread/INFO]: ALVAREZ_QWA was slain by reinaldoelpive
-[09:12:59] [Server thread/INFO]: ALVAREZ_QWA died
-[09:13:23] [Server thread/INFO]: ALVAREZ_QWA died
-[09:13:31] [Server thread/INFO]: ALVAREZ_QWA died
-[09:13:44] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
-[09:14:04] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[09:14:17] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
-[09:14:28] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[09:15:02] [Server thread/INFO]: reinaldoelpive lost connection: Timed out
-[09:15:02] [Server thread/INFO]: reinaldoelpive left the game
-[09:15:31] [Server thread/INFO]: ALVAREZ_QWA was not rescued in time
-[09:16:35] [Server thread/INFO]: ALVAREZ_QWA lost connection: Timed out
-[09:16:35] [Server thread/INFO]: ALVAREZ_QWA left the game
-[10:49:35] [Server thread/INFO]: Stopping the server
-[10:49:35] [Server thread/INFO]: Stopping server
-[10:49:35] [Server thread/INFO]: Saving players
-[10:49:35] [Server thread/INFO]: Saving worlds
-[10:49:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[10:49:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[10:49:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[10:49:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[10:49:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:49:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:49:36] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01Jan2025 21:33:26.019] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[01Jan2025 21:33:26.024] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[01Jan2025 21:33:26.160] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server-tecnico/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[01Jan2025 21:33:26.197] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/server-tecnico/servidor_minecraft/config/fml.toml is not correct. Correcting
+[01Jan2025 21:33:26.203] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
+[01Jan2025 21:33:26.205] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [disableOptimizedDFU] was corrected from null to true
+[01Jan2025 21:33:26.206] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [maxThreads] was corrected from null to -1
+[01Jan2025 21:33:26.466] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-tecnico/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
+[01Jan2025 21:33:26.469] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-tecnico/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[01Jan2025 21:33:26.471] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-tecnico/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[01Jan2025 21:33:26.472] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-tecnico/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[01Jan2025 21:33:26.604] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[01Jan2025 21:33:28.272] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[01Jan2025 21:33:32.414] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[01Jan2025 21:33:34.104] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
+[01Jan2025 21:33:34.106] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
+[01Jan2025 21:33:34.746] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/server-tecnico/servidor_minecraft/config/forge-common.toml is not correct. Correcting
+[01Jan2025 21:33:34.748] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[01Jan2025 21:33:34.749] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.cachePackAccess was corrected from null to its default, true. 
+[01Jan2025 21:33:34.750] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.indexVanillaPackCachesOnThread was corrected from null to its default, false. 
+[01Jan2025 21:33:34.751] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.indexModPackCachesOnThread was corrected from null to its default, false. 
+[01Jan2025 21:33:35.087] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[01Jan2025 21:33:35.664] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.4.12
+[01Jan2025 21:33:35.993] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01Jan2025 21:33:36.025] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/server-tecnico/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%2399!/assets/.mcassetsroot' uses unexpected schema
+[01Jan2025 21:33:36.026] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/server-tecnico/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%2399!/data/.mcassetsroot' uses unexpected schema
+[01Jan2025 21:33:38.504] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[01Jan2025 21:33:39.025] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
+[01Jan2025 21:33:39.598] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[01Jan2025 21:33:39.598] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[01Jan2025 21:33:39.599] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[01Jan2025 21:33:39.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[01Jan2025 21:33:39.869] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[01Jan2025 21:33:39.892] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[01Jan2025 21:33:39.975] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01Jan2025 21:33:39.976] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[01Jan2025 21:33:39.977] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01Jan2025 21:33:39.977] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[01Jan2025 21:33:40.000] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
+[01Jan2025 21:33:40.001] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[01Jan2025 21:33:40.001] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[01Jan2025 21:33:40.002] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[01Jan2025 21:33:40.002] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[01Jan2025 21:33:40.003] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[01Jan2025 21:33:40.003] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[01Jan2025 21:33:40.004] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+[01Jan2025 21:33:40.004] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[01Jan2025 21:33:40.033] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[01Jan2025 21:33:54.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01Jan2025 21:33:55.205] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 21:33:55.212] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 21:33:55.214] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 21:33:56.684] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 21:33:56.685] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 21:33:56.690] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 21:33:57.099] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 21:33:57.600] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 21:33:58.120] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 21:33:58.610] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jan2025 21:33:59.110] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[01Jan2025 21:33:59.599] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[01Jan2025 21:34:00.100] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[01Jan2025 21:34:00.599] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[01Jan2025 21:34:01.112] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[01Jan2025 21:34:01.603] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[01Jan2025 21:34:02.097] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
+[01Jan2025 21:34:02.597] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[01Jan2025 21:34:03.100] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[01Jan2025 21:34:03.598] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
+[01Jan2025 21:34:04.097] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
+[01Jan2025 21:34:04.597] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[01Jan2025 21:34:05.105] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
+[01Jan2025 21:34:05.605] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
+[01Jan2025 21:34:06.100] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 19%
+[01Jan2025 21:34:06.596] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 21%
+[01Jan2025 21:34:07.097] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[01Jan2025 21:34:07.614] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[01Jan2025 21:34:08.106] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
+[01Jan2025 21:34:08.596] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
+[01Jan2025 21:34:09.097] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[01Jan2025 21:34:09.599] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[01Jan2025 21:34:10.104] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
+[01Jan2025 21:34:10.598] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 35%
+[01Jan2025 21:34:11.117] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
+[01Jan2025 21:34:11.615] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 39%
+[01Jan2025 21:34:12.102] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
+[01Jan2025 21:34:12.608] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[01Jan2025 21:34:13.115] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
+[01Jan2025 21:34:13.597] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 45%
+[01Jan2025 21:34:14.100] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 47%
+[01Jan2025 21:34:14.596] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 49%
+[01Jan2025 21:34:15.100] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[01Jan2025 21:34:15.605] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
+[01Jan2025 21:34:16.103] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
+[01Jan2025 21:34:16.598] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
+[01Jan2025 21:34:17.098] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
+[01Jan2025 21:34:17.606] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 59%
+[01Jan2025 21:34:18.096] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
+[01Jan2025 21:34:18.601] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 64%
+[01Jan2025 21:34:19.104] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 66%
+[01Jan2025 21:34:19.600] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[01Jan2025 21:34:20.097] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[01Jan2025 21:34:20.600] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 71%
+[01Jan2025 21:34:21.101] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 73%
+[01Jan2025 21:34:21.612] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 76%
+[01Jan2025 21:34:22.107] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 78%
+[01Jan2025 21:34:22.597] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 80%
+[01Jan2025 21:34:23.098] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[01Jan2025 21:34:23.596] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[01Jan2025 21:34:24.116] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[01Jan2025 21:34:24.598] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[01Jan2025 21:34:25.105] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
+[01Jan2025 21:34:25.598] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
+[01Jan2025 21:34:26.100] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 95%
+[01Jan2025 21:34:26.599] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[01Jan2025 21:34:26.866] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 32771 ms
+[01Jan2025 21:34:26.866] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (46.872s)! For help, type "help"
+[01Jan2025 21:34:26.874] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[01Jan2025 21:36:14.281] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@74da4cdd[id=<null>,name=reinaldoelpive,properties={},legacy=false] (/[0:0:0:0:0:0:0:1%0]:57518) lost connection: Timed out
+[01Jan2025 21:36:16.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[01Jan2025 21:36:16.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[01Jan2025 21:36:16.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[01Jan2025 21:36:16.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[01Jan2025 21:36:17.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01Jan2025 21:36:18.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01Jan2025 21:36:18.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jan2025 21:36:18.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01Jan2025 21:36:18.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01Jan2025 21:36:18.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01Jan2025 21:36:18.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

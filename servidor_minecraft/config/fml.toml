@@ -1,0 +1,7 @@
+# Enable forge global version checking
+versionCheck = true
+disableOptimizedDFU = true
+# does the splashscreen run
+splashscreen = true
+maxThreads = -1
+
