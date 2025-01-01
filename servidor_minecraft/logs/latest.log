@@ -1,33 +1,15 @@
-[06:08:26] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.3
-[06:08:26] [main/WARN]: Mod resolution failed
-[06:08:26] [main/INFO]: Immediate reason: [HARD_DEP easyshulkerboxes 21.1.0 {depends puzzleslib @ [>=21.0.10]}, HARD_DEP puzzleslib 21.1.9 {depends forgeconfigapiport @ [*]}, HARD_DEP_NO_CANDIDATE sophisticatedbackpacks 1.21.1-3.20.19.51 {depends fabricloader @ [>=0.16.7]}, HARD_DEP_NO_CANDIDATE sophisticatedcore 1.21.1-0.7.14.2.101 {depends fabricloader @ [>=0.16.9]}, NESTED_REQ_PARENT forgeconfigapiport 21.1.1, NESTED_REQ_PARENT forgeconfigapiport 21.1.1, ROOT_FORCELOAD_SINGLE easyshulkerboxes 21.1.0]
-[06:08:26] [main/INFO]: Reason: [HARD_DEP sophisticatedbackpacks 1.21.1-3.20.19.51 {depends fabricloader @ [>=0.16.7]}, HARD_DEP sophisticatedcore 1.21.1-0.7.14.2.101 {depends fabricloader @ [>=0.16.9]}, HARD_DEP porting_lib_loot 3.1.0+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_model_loader 3.1.0+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_item_abilities 3.1.0+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_transfer 3.1.0+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_fluids 3.1.0+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_extensions 3.1.0+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_accessors 3.1.0+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_asm 3.1.0+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_attributes 3.1.0+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_blocks 3.1.0+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_common 3.1.0+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_conditions 3.1.0+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_core 3.1.0+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_gametest 3.1.0+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_lazy_registration 3.1.0+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_level_events 3.1.0+1.21.1 {depends fabricloader @ [>=0.16.7]}, HARD_DEP porting_lib_render_types 3.1.0-soph.1+1.21.1 {depends fabricloader @ [>=0.16.7]}]
-[06:08:26] [main/INFO]: SERVER environment disabled: [fabric-renderer-api-v1, fabric-model-loading-api-v1, fabric-keybindings-v0, lambdynlights, mkb, wi_zoom, fabric-client-tags-api-v1, fabric-screen-api-v1, fabric-renderer-indigo, fabric-blockrenderlayer-v1, fabric-renderer-registries-v1, fabric-rendering-v0, fabric-sound-api-v1, fabric-key-binding-api-v1, fabric-rendering-v1]
-[06:08:26] [main/INFO]: Fix: add [], remove [], replace [[fabricloader 0.16.3] -> add:fabricloader 0.16.9 ([[0.16.9,∞)])]
-[06:08:26] [main/ERROR]: Incompatible mods found!
+[06:21:23] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.3
+[06:21:23] [main/WARN]: Mod resolution failed
+[06:21:23] [main/INFO]: Immediate reason: [HARD_DEP easyshulkerboxes 21.1.0 {depends puzzleslib @ [>=21.0.10]}, HARD_DEP_NO_CANDIDATE puzzleslib 21.1.9 {depends forgeconfigapiport @ [*]}, ROOT_FORCELOAD_SINGLE easyshulkerboxes 21.1.0]
+[06:21:23] [main/INFO]: Reason: [HARD_DEP puzzleslib 21.1.9 {depends forgeconfigapiport @ [*]}]
+[06:21:23] [main/INFO]: SERVER environment disabled: [fabric-renderer-api-v1, fabric-model-loading-api-v1, fabric-keybindings-v0, lambdynlights, wi_zoom, fabric-client-tags-api-v1, fabric-screen-api-v1, fabric-renderer-indigo, fabric-blockrenderlayer-v1, fabric-renderer-registries-v1, fabric-rendering-v0, fabric-sound-api-v1, fabric-key-binding-api-v1, fabric-rendering-v1]
+[06:21:23] [main/INFO]: Fix: add [add:forgeconfigapiport 1 ([(-∞,∞)])], remove [], replace []
+[06:21:23] [main/ERROR]: Incompatible mods found!
 net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
 A potential solution has been determined, this may resolve your problem:
-	 - Replace mod 'Fabric Loader' (fabricloader) 0.16.3 with version 0.16.9 or later.
+	 - Install forgeconfigapiport, any version.
 More details:
-	 - Mod 'Sophisticated Backpacks' (sophisticatedbackpacks) 1.21.1-3.20.19.51 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
-	 - Mod 'Sophisticated Core' (sophisticatedcore) 1.21.1-0.7.14.2.101 requires version 0.16.9 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
-	 - Mod 'Porting Lib Loot' (porting_lib_loot) 3.1.0+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
-	 - Mod 'Porting Lib Model Loader' (porting_lib_model_loader) 3.1.0+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
-	 - Mod 'Porting Lib Item Abilities' (porting_lib_item_abilities) 3.1.0+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
-	 - Mod 'Porting Lib Transfer' (porting_lib_transfer) 3.1.0+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
-	 - Mod 'Porting Lib Fluids' (porting_lib_fluids) 3.1.0+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
-	 - Mod 'Porting Lib Extensions' (porting_lib_extensions) 3.1.0+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
-	 - Mod 'Porting Lib Accessors' (porting_lib_accessors) 3.1.0+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
-	 - Mod 'Porting Lib ASM' (porting_lib_asm) 3.1.0+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
-	 - Mod 'Porting Lib Attributes' (porting_lib_attributes) 3.1.0+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
-	 - Mod 'Porting Lib Blocks' (porting_lib_blocks) 3.1.0+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
-	 - Mod 'Porting Lib Common' (porting_lib_common) 3.1.0+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
-	 - Mod 'Porting Lib Conditions' (porting_lib_conditions) 3.1.0+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
-	 - Mod 'Porting Lib Core' (porting_lib_core) 3.1.0+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
-	 - Mod 'Porting Lib GameTest' (porting_lib_gametest) 3.1.0+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
-	 - Mod 'Porting Lib Lazy Register' (porting_lib_lazy_registration) 3.1.0+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
-	 - Mod 'Porting Lib Level Events' (porting_lib_level_events) 3.1.0+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
-	 - Mod 'Porting Lib Render Types' (porting_lib_render_types) 3.1.0-soph.1+1.21.1 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Puzzles Lib' (puzzleslib) 21.1.9 requires any version of forgeconfigapiport, which is missing!
 	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:196) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.16.3.jar:?]
