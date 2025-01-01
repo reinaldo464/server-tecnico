@@ -1,0 +1,52 @@
+{
+  "byg:biomepedia_gift": {
+    "criteria": {
+      "tick": "2025-01-01 22:00:51 +0000"
+    },
+    "done": true
+  },
+  "byg:root": {
+    "criteria": {
+      "tick": "2025-01-01 22:00:51 +0000"
+    },
+    "done": true
+  },
+  "byg:adventure/oh_the_biomes_youll_go": {
+    "criteria": {
+      "byg:orchard": "2025-01-01 22:01:24 +0000"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-01-01 22:01:30 +0000"
+    },
+    "done": true
+  },
+  "takesapillage:root": {
+    "criteria": {
+      "always": "2025-01-01 22:00:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:meadow": "2025-01-01 22:00:51 +0000",
+      "minecraft:plains": "2025-01-01 22:01:19 +0000"
+    },
+    "done": false
+  },
+  "alexsmobs:alexsmobs/root": {
+    "criteria": {
+      "useitem": "2025-01-01 22:01:30 +0000"
+    },
+    "done": true
+  },
+  "byg:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-01-01 22:01:30 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}
