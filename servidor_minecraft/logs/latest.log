@@ -234,3 +234,16 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minec
 [08:00:16] [Server thread/INFO]: reinaldoelpive was slain by ALVAREZ_QWA
 [08:00:17] [Server thread/INFO]: reinaldoelpive lost connection: Timed out
 [08:00:17] [Server thread/INFO]: reinaldoelpive left the game
+[08:11:55] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[08:11:55] [Server thread/INFO]: fuera de aqui<--[HERE]
+[08:21:25] [Server thread/INFO]: ALVAREZ_QWA died
+[08:21:49] [Server thread/INFO]: ALVAREZ_QWA lost connection: Timed out
+[08:21:49] [Server thread/INFO]: ALVAREZ_QWA left the game
+[08:22:28] [Server thread/INFO]: No entity was found
+[08:22:38] [Server thread/INFO]: ALVAREZ_QWA[/[0:0:0:0:0:0:0:1%0]:55310] logged in with entity id 11195 at (-446.7562920043459, 119.0, 2381.699999988079)
+[08:22:38] [Server thread/INFO]: ALVAREZ_QWA joined the game
+[08:22:58] [Server thread/INFO]: Revived ALVAREZ_QWA
+[08:26:08] [Server thread/INFO]: reinaldoelpive[/[0:0:0:0:0:0:0:1%0]:51998] logged in with entity id 13704 at (-445.50466338844603, 120.0, 2375.758013855892)
+[08:26:08] [Server thread/INFO]: reinaldoelpive joined the game
+[08:27:08] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
+[08:27:33] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]

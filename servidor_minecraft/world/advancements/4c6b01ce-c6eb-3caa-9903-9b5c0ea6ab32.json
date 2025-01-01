@@ -3191,5 +3191,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2025-01-01 08:15:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2025-01-01 08:15:44 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }
