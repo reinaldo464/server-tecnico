@@ -339,3 +339,14 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minec
 [09:15:31] [Server thread/INFO]: ALVAREZ_QWA was not rescued in time
 [09:16:35] [Server thread/INFO]: ALVAREZ_QWA lost connection: Timed out
 [09:16:35] [Server thread/INFO]: ALVAREZ_QWA left the game
+[10:49:35] [Server thread/INFO]: Stopping the server
+[10:49:35] [Server thread/INFO]: Stopping server
+[10:49:35] [Server thread/INFO]: Saving players
+[10:49:35] [Server thread/INFO]: Saving worlds
+[10:49:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:49:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[10:49:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[10:49:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:49:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:49:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:49:36] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
