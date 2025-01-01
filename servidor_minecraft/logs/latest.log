@@ -247,3 +247,17 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minec
 [08:26:08] [Server thread/INFO]: reinaldoelpive joined the game
 [08:27:08] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
 [08:27:33] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
+[08:28:23] [Server thread/INFO]: reinaldoelpive lost connection: Timed out
+[08:28:23] [Server thread/INFO]: reinaldoelpive left the game
+[08:31:23] [Server thread/INFO]: ALVAREZ_QWA lost connection: Timed out
+[08:31:23] [Server thread/INFO]: ALVAREZ_QWA left the game
+[08:34:56] [Server thread/INFO]: ALVAREZ_QWA[/[0:0:0:0:0:0:0:1%0]:52702] logged in with entity id 15160 at (-448.6474742782059, 119.162141421027, 2372.620545543823)
+[08:34:56] [Server thread/INFO]: ALVAREZ_QWA joined the game
+[08:37:00] [Server thread/WARN]: ALVAREZ_QWA was kicked for floating a vehicle too long!
+[08:37:00] [Server thread/INFO]: ALVAREZ_QWA lost connection: Flying is not enabled on this server
+[08:37:00] [Server thread/INFO]: ALVAREZ_QWA left the game
+[08:37:09] [Server thread/INFO]: ALVAREZ_QWA[/[0:0:0:0:0:0:0:1%0]:47082] logged in with entity id 17122 at (-440.9200661594318, 124.5411605834961, 2358.4126924504662)
+[08:37:09] [Server thread/INFO]: ALVAREZ_QWA joined the game
+[08:37:54] [Server thread/WARN]: ALVAREZ_QWA was kicked for floating a vehicle too long!
+[08:37:54] [Server thread/INFO]: ALVAREZ_QWA lost connection: Flying is not enabled on this server
+[08:37:54] [Server thread/INFO]: ALVAREZ_QWA left the game
