@@ -1,5 +1,5 @@
-[07:05:02] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.3
-[07:05:03] [main/INFO]: Loading 65 mods:
+[07:37:29] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.3
+[07:37:30] [main/INFO]: Loading 65 mods:
 	- balm-fabric 21.0.22
 	   \-- kuma_api 21.0.5-SNAPSHOT
 	- biomesoplenty 21.1.0.7
@@ -79,77 +79,77 @@
 	   \-- keybindfixtxf 1.1.1
 	- xaerominimap 24.7.1
 	- xaeroworldmap 1.39.2
-[07:05:04] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server-tecnico/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[07:05:04] [main/INFO]: Compatibility level set to JAVA_17
-[07:05:04] [main/INFO]: Compatibility level set to JAVA_21
-[07:05:05] [main/WARN]: Error loading class: net/minecraft/class_7766 (java.lang.ClassNotFoundException: net/minecraft/class_7766)
-[07:05:05] [main/WARN]: @Mixin target net.minecraft.class_7766 was not found pointblank.fabric.mixins.json:SpriteLoaderMixin from mod pointblank
-[07:05:05] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[07:05:05] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[07:05:15] [main/ERROR]: No data fixer registered for biomesoplenty:boat
-[07:05:15] [main/ERROR]: No data fixer registered for biomesoplenty:chest_boat
-[07:05:15] [main/ERROR]: No data fixer registered for anomaly
-[07:05:15] [main/ERROR]: No data fixer registered for immersive_aircraft:gyrodyne
-[07:05:15] [main/ERROR]: No data fixer registered for immersive_aircraft:biplane
-[07:05:15] [main/ERROR]: No data fixer registered for immersive_aircraft:airship
-[07:05:15] [main/ERROR]: No data fixer registered for immersive_aircraft:cargo_airship
-[07:05:15] [main/ERROR]: No data fixer registered for immersive_aircraft:warship
-[07:05:15] [main/ERROR]: No data fixer registered for immersive_aircraft:quadrocopter
-[07:05:15] [main/ERROR]: No data fixer registered for immersive_aircraft:bullet
-[07:05:15] [main/ERROR]: No data fixer registered for immersive_aircraft:tiny_tnt
-[07:05:15] [main/WARN]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
-[07:05:15] [main/INFO]: [KONKRETE] Loading v1.9.9 in server-side mode on FABRIC!
-[07:05:15] [main/INFO]: ---------------------------
-[07:05:15] [main/INFO]: KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
-[07:05:15] [main/INFO]:  
-[07:05:15] [main/INFO]: Open Imaging Copyright © 2014 Dhyan Blum.
-[07:05:15] [main/INFO]: Open Imaging is licensed under Apache-2.0.
-[07:05:15] [main/INFO]:  
-[07:05:15] [main/INFO]: JsonPath Copyright © 2017 Jayway.
-[07:05:15] [main/INFO]: JsonPath is licensed under Apache-2.0.
-[07:05:15] [main/INFO]:  
-[07:05:15] [main/INFO]: Json-smart Copyright © netplex.
-[07:05:15] [main/INFO]: Json-smart is licensed under Apache-2.0.
-[07:05:15] [main/INFO]:  
-[07:05:15] [main/INFO]: Exp4j Copyright © Frank Asseg.
-[07:05:15] [main/INFO]: Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
-[07:05:15] [main/INFO]: ---------------------------
-[07:05:15] [main/INFO]: [KONKRETE] Server-side modules initialized and ready to use!
-[07:05:15] [main/INFO]: Loading mod pointblank
-[07:05:15] [main/INFO]: [STDERR]: java.nio.file.NoSuchFileException: ./pointblank
-[07:05:15] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
-[07:05:15] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixException.asIOException(UnixException.java:115)
-[07:05:15] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixFileSystemProvider.newDirectoryStream(UnixFileSystemProvider.java:477)
-[07:05:15] [main/INFO]: [STDERR]: 	at java.base/java.nio.file.Files.newDirectoryStream(Files.java:481)
-[07:05:15] [main/INFO]: [STDERR]: 	at com.vicmatskiv.pointblank.registry.ExtensionRegistry.scanExtensions(ExtensionRegistry.java:426)
-[07:05:15] [main/INFO]: [STDERR]: 	at com.vicmatskiv.pointblank.registry.ExtensionRegistry.discoverExtensions(ExtensionRegistry.java:263)
-[07:05:15] [main/INFO]: [STDERR]: 	at com.vicmatskiv.pointblank.PointBlankInitializer.init(PointBlankInitializer.java:37)
-[07:05:15] [main/INFO]: [STDERR]: 	at com.vicmatskiv.pointblank.PointBlankMod.onInitialize(PointBlankMod.java:9)
-[07:05:15] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:399)
-[07:05:15] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:63)
-[07:05:15] [main/INFO]: [STDERR]: 	at net.minecraft.server.Main.main(Main.java:111)
-[07:05:15] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
-[07:05:15] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
-[07:05:15] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
-[07:05:15] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
-[07:05:15] [main/INFO]: [STDERR]: 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)
-[07:05:16] [main/ERROR]: No data fixer registered for javelin_rocket
-[07:05:16] [main/ERROR]: No data fixer registered for grenade
-[07:05:16] [main/ERROR]: No data fixer registered for at4_rocket
-[07:05:16] [main/ERROR]: No data fixer registered for grenade40mm
-[07:05:16] [main/ERROR]: No data fixer registered for grenade20mm
-[07:05:16] [main/ERROR]: No data fixer registered for smaw_rocket
-[07:05:16] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[07:05:16] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[07:05:16] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[07:05:16] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[07:05:16] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[07:05:16] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[07:05:16] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[07:05:16] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[07:05:16] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[07:05:16] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[07:05:20] [main/ERROR]: Parsing error loading recipe pointblank:g3
+[07:37:30] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server-tecnico/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[07:37:30] [main/INFO]: Compatibility level set to JAVA_17
+[07:37:30] [main/INFO]: Compatibility level set to JAVA_21
+[07:37:31] [main/WARN]: Error loading class: net/minecraft/class_7766 (java.lang.ClassNotFoundException: net/minecraft/class_7766)
+[07:37:31] [main/WARN]: @Mixin target net.minecraft.class_7766 was not found pointblank.fabric.mixins.json:SpriteLoaderMixin from mod pointblank
+[07:37:31] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[07:37:31] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[07:37:41] [main/ERROR]: No data fixer registered for biomesoplenty:boat
+[07:37:41] [main/ERROR]: No data fixer registered for biomesoplenty:chest_boat
+[07:37:41] [main/ERROR]: No data fixer registered for anomaly
+[07:37:41] [main/ERROR]: No data fixer registered for immersive_aircraft:gyrodyne
+[07:37:41] [main/ERROR]: No data fixer registered for immersive_aircraft:biplane
+[07:37:41] [main/ERROR]: No data fixer registered for immersive_aircraft:airship
+[07:37:41] [main/ERROR]: No data fixer registered for immersive_aircraft:cargo_airship
+[07:37:41] [main/ERROR]: No data fixer registered for immersive_aircraft:warship
+[07:37:41] [main/ERROR]: No data fixer registered for immersive_aircraft:quadrocopter
+[07:37:41] [main/ERROR]: No data fixer registered for immersive_aircraft:bullet
+[07:37:41] [main/ERROR]: No data fixer registered for immersive_aircraft:tiny_tnt
+[07:37:41] [main/WARN]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
+[07:37:41] [main/INFO]: [KONKRETE] Loading v1.9.9 in server-side mode on FABRIC!
+[07:37:41] [main/INFO]: ---------------------------
+[07:37:41] [main/INFO]: KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
+[07:37:41] [main/INFO]:  
+[07:37:41] [main/INFO]: Open Imaging Copyright © 2014 Dhyan Blum.
+[07:37:41] [main/INFO]: Open Imaging is licensed under Apache-2.0.
+[07:37:41] [main/INFO]:  
+[07:37:41] [main/INFO]: JsonPath Copyright © 2017 Jayway.
+[07:37:41] [main/INFO]: JsonPath is licensed under Apache-2.0.
+[07:37:41] [main/INFO]:  
+[07:37:41] [main/INFO]: Json-smart Copyright © netplex.
+[07:37:41] [main/INFO]: Json-smart is licensed under Apache-2.0.
+[07:37:41] [main/INFO]:  
+[07:37:41] [main/INFO]: Exp4j Copyright © Frank Asseg.
+[07:37:41] [main/INFO]: Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
+[07:37:41] [main/INFO]: ---------------------------
+[07:37:41] [main/INFO]: [KONKRETE] Server-side modules initialized and ready to use!
+[07:37:41] [main/INFO]: Loading mod pointblank
+[07:37:41] [main/INFO]: [STDERR]: java.nio.file.NoSuchFileException: ./pointblank
+[07:37:41] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+[07:37:41] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixException.asIOException(UnixException.java:115)
+[07:37:41] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixFileSystemProvider.newDirectoryStream(UnixFileSystemProvider.java:477)
+[07:37:41] [main/INFO]: [STDERR]: 	at java.base/java.nio.file.Files.newDirectoryStream(Files.java:481)
+[07:37:41] [main/INFO]: [STDERR]: 	at com.vicmatskiv.pointblank.registry.ExtensionRegistry.scanExtensions(ExtensionRegistry.java:426)
+[07:37:41] [main/INFO]: [STDERR]: 	at com.vicmatskiv.pointblank.registry.ExtensionRegistry.discoverExtensions(ExtensionRegistry.java:263)
+[07:37:41] [main/INFO]: [STDERR]: 	at com.vicmatskiv.pointblank.PointBlankInitializer.init(PointBlankInitializer.java:37)
+[07:37:41] [main/INFO]: [STDERR]: 	at com.vicmatskiv.pointblank.PointBlankMod.onInitialize(PointBlankMod.java:9)
+[07:37:41] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:399)
+[07:37:41] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:63)
+[07:37:41] [main/INFO]: [STDERR]: 	at net.minecraft.server.Main.main(Main.java:111)
+[07:37:41] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+[07:37:41] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+[07:37:41] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+[07:37:41] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
+[07:37:41] [main/INFO]: [STDERR]: 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)
+[07:37:42] [main/ERROR]: No data fixer registered for javelin_rocket
+[07:37:42] [main/ERROR]: No data fixer registered for grenade
+[07:37:42] [main/ERROR]: No data fixer registered for at4_rocket
+[07:37:42] [main/ERROR]: No data fixer registered for grenade40mm
+[07:37:42] [main/ERROR]: No data fixer registered for grenade20mm
+[07:37:42] [main/ERROR]: No data fixer registered for smaw_rocket
+[07:37:42] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[07:37:42] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[07:37:42] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[07:37:42] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[07:37:42] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[07:37:42] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[07:37:42] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[07:37:42] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[07:37:42] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[07:37:42] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:37:46] [main/ERROR]: Parsing error loading recipe pointblank:g3
 com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minecraft:gold_ingot"}]; No key item in MapLike[{"count":5,"id":"minecraft:gold_ingot"}]; No key tag in MapLike[{"count":9,"id":"minecraft:iron_ingot"}]; No key item in MapLike[{"count":9,"id":"minecraft:iron_ingot"}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
@@ -166,78 +166,71 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minec
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
-[07:05:20] [main/INFO]: Loaded 1848 recipes
-[07:05:20] [main/INFO]: Loaded 1728 advancements
-[07:05:21] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[07:05:21] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[07:05:21] [main/INFO]: Applied 0 biome modifications to 0 of 229 new biomes in 2.803 ms
-[07:05:21] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[07:05:21] [Server thread/INFO]: Loading properties
-[07:05:21] [Server thread/INFO]: Default game type: SURVIVAL
-[07:05:21] [Server thread/INFO]: Generating keypair
-[07:05:22] [Server thread/INFO]: Starting Minecraft server on *:25565
-[07:05:22] [Server thread/INFO]: Using epoll channel type
-[07:05:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[07:05:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[07:05:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[07:05:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[07:05:22] [Server thread/INFO]: Preparing level "world"
-[07:05:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[07:05:31] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[07:05:31] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[07:05:31] [Server thread/INFO]: Time elapsed: 755 ms
-[07:05:31] [Server thread/INFO]: Done (9.074s)! For help, type "help"
-[07:05:31] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[07:05:31] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
-[07:05:40] [Server thread/INFO]: reinaldoelpive[/[0:0:0:0:0:0:0:1%0]:42220] logged in with entity id 6 at (-434.5, 110.0, 2410.5)
-[07:05:41] [Server thread/INFO]: reinaldoelpive joined the game
-[07:05:43] [Server thread/INFO]: ALVAREZ_QWA[/[0:0:0:0:0:0:0:1%0]:42230] logged in with entity id 125 at (-434.5, 110.0, 2408.5)
-[07:05:43] [Server thread/INFO]: ALVAREZ_QWA joined the game
-[07:06:13] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
-[07:06:20] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[07:08:18] [Server thread/INFO]: ALVAREZ_QWA was slain by reinaldoelpive
-[07:08:29] [Server thread/INFO]: ALVAREZ_QWA was slain by reinaldoelpive
-[07:12:38] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
-[07:12:50] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[07:13:30] [Server thread/INFO]: [STDERR]: Mismatching item in slot 6
-[07:13:30] [Server thread/INFO]: [STDERR]: Mismatching item in slot 6
-[07:13:30] [Server thread/INFO]: [STDERR]: Mismatching item in slot 6
-[07:13:30] [Server thread/INFO]: [STDERR]: Mismatching item in slot 6
-[07:13:30] [Server thread/INFO]: [STDERR]: Mismatching item in slot 6
-[07:13:32] [Server thread/WARN]: Mismatching item in slot 6
-[07:14:56] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
-[07:15:05] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[07:16:19] [Server thread/INFO]: ALVAREZ_QWA died
-[07:16:51] [Server thread/INFO]: ALVAREZ_QWA died
-[07:18:59] [Server thread/INFO]: ALVAREZ_QWA died
-[07:19:20] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Spectator Mode]
-[07:19:24] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[07:20:03] [Server thread/WARN]: ALVAREZ_QWA moved wrongly!
-[07:20:50] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Spectator Mode]
-[07:21:07] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[07:22:11] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Spectator Mode]
-[07:22:20] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[07:22:37] [Server thread/INFO]: ALVAREZ_QWA died
-[07:22:55] [Server thread/INFO]: ALVAREZ_QWA lost connection: You logged in from another location
-[07:22:55] [Server thread/INFO]: ALVAREZ_QWA left the game
-[07:22:55] [Server thread/WARN]: handleDisconnection() called twice
-[07:22:58] [Server thread/INFO]: ALVAREZ_QWA[/[0:0:0:0:0:0:0:1%0]:44820] logged in with entity id 5323 at (-432.05882249313686, 119.0, 2379.852424195359)
-[07:22:58] [Server thread/INFO]: ALVAREZ_QWA joined the game
-[07:23:47] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Spectator Mode]
-[07:23:50] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
-[07:24:24] [Server thread/WARN]: ALVAREZ_QWA moved wrongly!
-[07:25:25] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Spectator Mode]
-[07:25:28] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[07:25:39] [Server thread/WARN]: reinaldoelpive moved wrongly!
-[07:25:47] [Server thread/WARN]: ALVAREZ_QWA moved wrongly!
-[07:26:03] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Spectator Mode]
-[07:26:09] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[07:26:10] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
-[07:29:06] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[07:31:18] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
-[07:31:35] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
-[07:32:29] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:spawn_reinforcements'
-[07:32:29] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:follow_range'
-[07:32:29] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:max_health'
-[07:32:29] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:knockback_resistance'
-[07:32:29] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:movement_speed'
+[07:37:46] [main/INFO]: Loaded 1848 recipes
+[07:37:46] [main/INFO]: Loaded 1728 advancements
+[07:37:48] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[07:37:48] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[07:37:48] [main/INFO]: Applied 0 biome modifications to 0 of 229 new biomes in 2.778 ms
+[07:37:48] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[07:37:48] [Server thread/INFO]: Loading properties
+[07:37:48] [Server thread/INFO]: Default game type: SURVIVAL
+[07:37:48] [Server thread/INFO]: Generating keypair
+[07:37:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:37:48] [Server thread/INFO]: Using epoll channel type
+[07:37:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:37:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:37:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:37:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:37:48] [Server thread/INFO]: Preparing level "world"
+[07:37:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:37:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:37:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:37:57] [Server thread/INFO]: Time elapsed: 669 ms
+[07:37:57] [Server thread/INFO]: Done (8.962s)! For help, type "help"
+[07:37:57] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[07:37:57] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[07:38:05] [Server thread/INFO]: ALVAREZ_QWA[/[0:0:0:0:0:0:0:1%0]:43232] logged in with entity id 6 at (-478.35772049694384, 6.0, 2361.6701043376042)
+[07:38:05] [Server thread/INFO]: ALVAREZ_QWA joined the game
+[07:38:12] [Server thread/INFO]: reinaldoelpive[/[0:0:0:0:0:0:0:1%0]:34456] logged in with entity id 297 at (-478.30000001192093, 44.0, 2361.4005837516193)
+[07:38:12] [Server thread/INFO]: reinaldoelpive joined the game
+[07:38:19] [Server thread/INFO]: [reinaldoelpive: Teleported reinaldoelpive to ALVAREZ_QWA]
+[07:38:35] [Server thread/INFO]: ALVAREZ_QWA lost connection: Timed out
+[07:38:35] [Server thread/INFO]: ALVAREZ_QWA left the game
+[07:38:35] [Server thread/WARN]: handleDisconnection() called twice
+[07:38:45] [Server thread/INFO]: ALVAREZ_QWA[/[0:0:0:0:0:0:0:1%0]:55174] logged in with entity id 1140 at (-478.30000001192093, 5.0, 2359.639098076219)
+[07:38:45] [Server thread/INFO]: ALVAREZ_QWA joined the game
+[07:41:44] [Server thread/INFO]: ALVAREZ_QWA was slain by reinaldoelpive
+[07:42:13] [Server thread/INFO]: ALVAREZ_QWA died
+[07:42:58] [Server thread/INFO]: ALVAREZ_QWA died
+[07:43:17] [Server thread/INFO]: ALVAREZ_QWA died
+[07:43:31] [Server thread/INFO]: ALVAREZ_QWA died
+[07:43:50] [Server thread/INFO]: ALVAREZ_QWA died
+[07:44:24] [Server thread/INFO]: ALVAREZ_QWA died
+[07:46:19] [Server thread/INFO]: ALVAREZ_QWA was slain by reinaldoelpive
+[07:46:42] [Server thread/INFO]: [reinaldoelpive: Revived ALVAREZ_QWA]
+[07:47:05] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
+[07:47:15] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
+[07:48:08] [Server thread/INFO]: ALVAREZ_QWA was slain by reinaldoelpive
+[07:48:36] [Server thread/INFO]: ALVAREZ_QWA died
+[07:52:05] [Server thread/INFO]: reinaldoelpive was slain by ALVAREZ_QWA
+[07:52:08] [Server thread/INFO]: reinaldoelpive was not rescued in time
+[07:52:33] [Server thread/INFO]: reinaldoelpive hit the ground too hard
+[07:53:08] [Server thread/INFO]: reinaldoelpive died
+[07:53:25] [Server thread/INFO]: reinaldoelpive died
+[07:54:58] [Server thread/INFO]: reinaldoelpive was slain by ALVAREZ_QWA
+[07:55:02] [Server thread/WARN]: reinaldoelpive was kicked for floating too long!
+[07:55:02] [Server thread/INFO]: reinaldoelpive lost connection: Flying is not enabled on this server
+[07:55:02] [Server thread/INFO]: reinaldoelpive left the game
+[07:55:02] [Server thread/WARN]: handleDisconnection() called twice
+[07:55:17] [Server thread/INFO]: reinaldoelpive[/[0:0:0:0:0:0:0:1%0]:33000] logged in with entity id 4552 at (-443.8641858244447, 120.00133597911214, 2368.481285076436)
+[07:55:17] [Server thread/INFO]: reinaldoelpive joined the game
+[07:55:45] [Server thread/INFO]: reinaldoelpive died
+[07:56:56] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
+[07:56:57] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
+[07:57:33] [Server thread/INFO]: ALVAREZ_QWA was slain by reinaldoelpive
+[07:58:22] [Server thread/INFO]: ALVAREZ_QWA died
+[07:58:42] [Server thread/INFO]: ALVAREZ_QWA died
+[07:59:18] [Server thread/INFO]: ALVAREZ_QWA was slain by reinaldoelpive
+[08:00:16] [Server thread/INFO]: reinaldoelpive was slain by ALVAREZ_QWA
+[08:00:17] [Server thread/INFO]: reinaldoelpive lost connection: Timed out
+[08:00:17] [Server thread/INFO]: reinaldoelpive left the game
