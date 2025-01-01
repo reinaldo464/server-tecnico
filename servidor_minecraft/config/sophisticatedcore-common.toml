@@ -2,5 +2,5 @@
 #Common Settings
 [common]
 	#Disable / enable any items here (disables their recipes)
-	enabledItems = []
+	enabledItems = ["sophisticatedbackpacks:auto_smoking_upgrade|true", "sophisticatedbackpacks:battery_upgrade|true", "sophisticatedbackpacks:smoking_upgrade|true", "sophisticatedbackpacks:advanced_feeding_upgrade|true", "sophisticatedbackpacks:diamond_backpack|true", "sophisticatedbackpacks:gold_backpack|true", "sophisticatedbackpacks:inception_upgrade|true"]
 
