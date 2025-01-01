@@ -261,3 +261,81 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minec
 [08:37:54] [Server thread/WARN]: ALVAREZ_QWA was kicked for floating a vehicle too long!
 [08:37:54] [Server thread/INFO]: ALVAREZ_QWA lost connection: Flying is not enabled on this server
 [08:37:54] [Server thread/INFO]: ALVAREZ_QWA left the game
+[08:39:01] [Server thread/INFO]: ALVAREZ_QWA[/[0:0:0:0:0:0:0:1%0]:56970] logged in with entity id 18583 at (-402.2677481278441, 121.254638671875, 2441.4303320518748)
+[08:39:01] [Server thread/INFO]: ALVAREZ_QWA joined the game
+[08:39:33] [Server thread/WARN]: ALVAREZ_QWA moved wrongly!
+[08:40:29] [Server thread/INFO]: reinaldoelpive[/[0:0:0:0:0:0:0:1%0]:53312] logged in with entity id 20365 at (-447.1834212193794, 119.0, 2372.300000011921)
+[08:40:29] [Server thread/INFO]: reinaldoelpive joined the game
+[08:46:27] [Server thread/WARN]: ALVAREZ_QWA moved wrongly!
+[08:46:28] [Server thread/INFO]: ALVAREZ_QWA was slain by Zombie
+[08:46:47] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
+[08:47:28] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
+[08:47:31] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
+[08:47:40] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
+[08:47:50] [Server thread/INFO]: ALVAREZ_QWA died
+[08:47:50] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
+[08:48:11] [Server thread/INFO]: [reinaldoelpive: Made ALVAREZ_QWA a server operator]
+[08:48:29] [Server thread/INFO]: ALVAREZ_QWA died
+[08:48:44] [Server thread/INFO]: [ALVAREZ_QWA: Set own game mode to Creative Mode]
+[08:48:54] [Server thread/INFO]: Named entity class_1506['██████████'/18614, l='ServerLevel[world]', x=-438.30, y=117.00, z=2384.70] died: ██████████ was blown up by reinaldoelpive
+[08:49:01] [Server thread/INFO]: Named entity class_1495['██████████'/18667, l='ServerLevel[world]', x=-432.70, y=117.00, z=2382.28] died: ██████████ was blown up by reinaldoelpive
+[08:49:01] [Server thread/INFO]: Named entity class_1495['██████████'/18668, l='ServerLevel[world]', x=-434.10, y=117.00, z=2382.03] died: ██████████ was blown up by reinaldoelpive
+[08:51:01] [Server thread/INFO]: [reinaldoelpive: Teleported reinaldoelpive to ALVAREZ_QWA]
+[08:51:40] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
+[08:51:46] [Server thread/INFO]: [ALVAREZ_QWA: Set own game mode to Survival Mode]
+[08:51:47] [Server thread/INFO]: ALVAREZ_QWA died
+[08:52:05] [Server thread/INFO]: ALVAREZ_QWA was not rescued in time
+[08:52:15] [Server thread/INFO]: [ALVAREZ_QWA: Set own game mode to Creative Mode]
+[08:52:18] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
+[08:52:21] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
+[08:52:23] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
+[08:54:50] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
+[08:54:53] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
+[08:56:00] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
+[08:56:08] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
+[08:56:33] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
+[08:56:34] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
+[08:56:43] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
+[08:57:25] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
+[08:58:53] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
+[08:59:06] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
+[09:03:06] [Server thread/INFO]: [reinaldoelpive: The player idle timeout is now 100000 minute(s)]
+[09:03:11] [Server thread/INFO]: [reinaldoelpive: The player idle timeout is now 10000000 minute(s)]
+[09:03:16] [Server thread/INFO]: [reinaldoelpive: The player idle timeout is now 20000 minute(s)]
+[09:03:40] [Server thread/INFO]: [reinaldoelpive: The player idle timeout is now 134567890 minute(s)]
+[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:max_health'
+[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:movement_speed'
+[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:follow_range'
+[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:max_health'
+[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:movement_speed'
+[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:follow_range'
+[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:max_health'
+[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:movement_speed'
+[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:follow_range'
+[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:max_health'
+[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:movement_speed'
+[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:follow_range'
+[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:max_health'
+[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:movement_speed'
+[09:07:16] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:follow_range'
+[09:07:35] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
+[09:07:43] [Server thread/INFO]: [ALVAREZ_QWA: Set own game mode to Survival Mode]
+[09:08:08] [Server thread/INFO]: ALVAREZ_QWA was slain by reinaldoelpive
+[09:08:55] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
+[09:09:20] [Server thread/INFO]: [ALVAREZ_QWA: Set own game mode to Creative Mode]
+[09:10:41] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
+[09:10:54] [Server thread/INFO]: [ALVAREZ_QWA: Set own game mode to Survival Mode]
+[09:11:54] [Server thread/INFO]: ALVAREZ_QWA was slain by reinaldoelpive
+[09:12:34] [Server thread/INFO]: ALVAREZ_QWA was slain by reinaldoelpive
+[09:12:59] [Server thread/INFO]: ALVAREZ_QWA died
+[09:13:23] [Server thread/INFO]: ALVAREZ_QWA died
+[09:13:31] [Server thread/INFO]: ALVAREZ_QWA died
+[09:13:44] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
+[09:14:04] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
+[09:14:17] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Creative Mode]
+[09:14:28] [Server thread/INFO]: [reinaldoelpive: Set own game mode to Survival Mode]
+[09:15:02] [Server thread/INFO]: reinaldoelpive lost connection: Timed out
+[09:15:02] [Server thread/INFO]: reinaldoelpive left the game
+[09:15:31] [Server thread/INFO]: ALVAREZ_QWA was not rescued in time
+[09:16:35] [Server thread/INFO]: ALVAREZ_QWA lost connection: Timed out
+[09:16:35] [Server thread/INFO]: ALVAREZ_QWA left the game
