@@ -424,3 +424,4 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [02Jan2025 01:34:32.083] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ALVAREZ_QWA[/[0:0:0:0:0:0:0:1%0]:34202] logged in with entity id 14755 at (325.81952633406246, 101.0, -372.30000001192093)
 [02Jan2025 01:34:32.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALVAREZ_QWA joined the game
 [02Jan2025 01:34:32.481] [Server thread/INFO] [Jade/]: Syncing config to ALVAREZ_QWA (4c6b01ce-c6eb-3caa-9903-9b5c0ea6ab32)
+[02Jan2025 01:45:31.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reinaldoelpive has made the advancement [Suit Up]
