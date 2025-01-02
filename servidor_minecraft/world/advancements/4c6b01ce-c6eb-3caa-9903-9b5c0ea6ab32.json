@@ -203,6 +203,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2025-01-02 02:51:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2025-01-01 23:26:56 +0000"
@@ -730,6 +736,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-01-02 02:20:30 +0000",
+      "minecraft:spider": "2025-01-02 02:54:55 +0000",
       "minecraft:zombie": "2025-01-02 02:22:15 +0000"
     },
     "done": false
@@ -1274,6 +1281,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/appliances/tree_fertilizer": {
+    "criteria": {
+      "has_item": "2025-01-02 02:51:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-01-02 01:59:24 +0000"
@@ -1433,6 +1446,12 @@
   "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
       "has_cobblestone": "2025-01-02 01:33:40 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/tree_fertilizer": {
+    "criteria": {
+      "has_item": "2025-01-02 02:51:06 +0000"
     },
     "done": true
   },
@@ -1607,6 +1626,12 @@
   "create:recipes/create.palettes/cut_granite_brick_stairs_from_stone_types_granite_stonecutting": {
     "criteria": {
       "has_stone_types_granite": "2025-01-02 02:43:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2025-01-02 02:51:06 +0000"
     },
     "done": true
   },
