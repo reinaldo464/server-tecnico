@@ -1102,6 +1102,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2025-01-02 03:16:28 +0000",
       "minecraft:stony_peaks": "2025-01-01 23:27:30 +0000",
       "minecraft:lukewarm_ocean": "2025-01-01 23:22:14 +0000",
       "minecraft:river": "2025-01-01 23:19:44 +0000",
@@ -2193,15 +2194,15 @@
     },
     "done": true
   },
-  "create:recipes/create.palettes/cut_granite_stairs_from_stone_types_granite_stonecutting": {
-    "criteria": {
-      "has_stone_types_granite": "2025-01-02 02:45:04 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2025-01-02 02:32:25 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_granite_stairs_from_stone_types_granite_stonecutting": {
+    "criteria": {
+      "has_stone_types_granite": "2025-01-02 02:45:04 +0000"
     },
     "done": true
   },
