@@ -421,3 +421,15 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [02Jan2025 02:07:59.068] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ALVAREZ_QWA[/[0:0:0:0:0:0:0:1%0]:44680] logged in with entity id 1921 at (212.78143031055563, -59.0, -275.123107036636)
 [02Jan2025 02:07:59.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALVAREZ_QWA joined the game
 [02Jan2025 02:07:59.479] [Server thread/INFO] [Jade/]: Syncing config to ALVAREZ_QWA (4c6b01ce-c6eb-3caa-9903-9b5c0ea6ab32)
+[02Jan2025 02:09:03.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reinaldoelpive has made the advancement [Isn't It Iron Pick]
+[02Jan2025 02:12:38.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made reinaldoelpive a server operator
+[02Jan2025 02:12:43.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [reinaldoelpive: Set own game mode to Creative Mode]
+[02Jan2025 02:13:46.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [reinaldoelpive: Set own game mode to Survival Mode]
+[02Jan2025 02:14:32.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [reinaldoelpive: Set own game mode to Spectator Mode]
+[02Jan2025 02:14:57.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [reinaldoelpive: Set own game mode to Survival Mode]
+[02Jan2025 02:15:53.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [reinaldoelpive: Set own game mode to Spectator Mode]
+[02Jan2025 02:16:01.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [reinaldoelpive: Teleported reinaldoelpive to ALVAREZ_QWA]
+[02Jan2025 02:16:08.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [reinaldoelpive: Set own game mode to Survival Mode]
+[02Jan2025 02:16:11.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [reinaldoelpive: Set own game mode to Creative Mode]
+[02Jan2025 02:16:16.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [reinaldoelpive: Set own game mode to Survival Mode]
+[02Jan2025 02:17:18.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reinaldoelpive has made the advancement [Diamonds!]
