@@ -1,49 +1,44 @@
-[02Jan2025 01:06:25.502] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
-[02Jan2025 01:06:25.511] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[02Jan2025 01:06:28.897] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server-tecnico/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
-[02Jan2025 01:06:29.544] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-tecnico/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
-[02Jan2025 01:06:29.546] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-tecnico/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[02Jan2025 01:06:29.547] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-tecnico/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[02Jan2025 01:06:29.549] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-tecnico/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[02Jan2025 01:06:30.148] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
-[02Jan2025 01:06:32.968] [main/ERROR] [mixin/]: Mixin config itshallnottick.mixins.json does not specify "minVersion" property
-[02Jan2025 01:06:32.978] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[02Jan2025 01:06:33.177] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[02Jan2025 01:06:33.232] [main/WARN] [mixin/]: Reference map 'ambientsounds.mixins.refmap.json' for ambientsounds.mixins.json could not be read. If this is a development environment you can ignore this message
-[02Jan2025 01:06:33.881] [main/WARN] [mixin/]: Error loading class: atomicstryker/multimine/client/MultiMineClient (java.lang.ClassNotFoundException: atomicstryker.multimine.client.MultiMineClient)
-[02Jan2025 01:06:33.882] [main/WARN] [mixin/]: @Mixin target atomicstryker.multimine.client.MultiMineClient was not found treechop.forge.compat.mixins.json:MultiMineMixin
-[02Jan2025 01:06:42.089] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[02Jan2025 01:06:45.123] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[02Jan2025 01:06:45.183] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[02Jan2025 01:06:46.229] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
-[02Jan2025 01:06:46.230] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
-[02Jan2025 01:06:46.298] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[02Jan2025 01:06:48.499] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@5476f67a has been registered twice for the same name treechop:chop_wood.
-[02Jan2025 01:06:52.724] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init/]: From The Fog Loaded Successfully!
-[02Jan2025 01:06:52.967] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/end-biomes.json5" was read.
-[02Jan2025 01:06:53.027] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/nether-biomes.json5" was read.
-[02Jan2025 01:06:53.568] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/overworld/byg-overworld-biomes.json5" was read.
-[02Jan2025 01:06:53.587] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/cgm/update.json
-[02Jan2025 01:06:53.587] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/surface_rules/overworld_surface_rules.json5" was read.
-[02Jan2025 01:06:53.729] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/surface_rules/end_surface_rules.json5" was read.
-[02Jan2025 01:06:53.735] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/surface_rules/nether_surface_rules.json5" was read.
-[02Jan2025 01:06:53.775] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/growing-patterns.json5" was read.
-[02Jan2025 01:06:53.904] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/trades.json5" was read.
-[02Jan2025 01:06:53.926] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/settings.json5" was read.
-[02Jan2025 01:06:53.933] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/biomepedia.json5" was read.
-[02Jan2025 01:06:54.098] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: Created compressed zip back up for "/workspaces/server-tecnico/servidor_minecraft/config/byg" in "/workspaces/server-tecnico/servidor_minecraft/config/byg/backups/last_working_configs_backup.zip"
-[02Jan2025 01:06:54.105] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: BYG: Added strippable Blocks...
-[02Jan2025 01:06:54.110] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Found status: BETA Current: 1.3.7 Target: null
-[02Jan2025 01:06:54.110] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
-[02Jan2025 01:06:54.164] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:aiming for minecraft:player
-[02Jan2025 01:06:54.165] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:reloading for minecraft:player
-[02Jan2025 01:06:54.165] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:shooting for minecraft:player
-[02Jan2025 01:06:54.258] [main/INFO] [potionstudios.byg.BYG/]: Initializing BYG network...
-[02Jan2025 01:06:54.262] [main/INFO] [potionstudios.byg.BYG/]: Initialized BYG network!
-[02Jan2025 01:06:54.281] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[02Jan2025 01:06:54.281] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[02Jan2025 01:06:54.281] [main/INFO] [terrablender/]: Registered region byg:region_0 to index 1 for type OVERWORLD
-[02Jan2025 01:06:54.286] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[02Jan2025 01:58:23.129] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[02Jan2025 01:58:23.134] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[02Jan2025 01:58:24.059] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server-tecnico/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[02Jan2025 01:58:24.408] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-tecnico/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
+[02Jan2025 01:58:24.410] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-tecnico/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[02Jan2025 01:58:24.411] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-tecnico/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[02Jan2025 01:58:24.412] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-tecnico/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[02Jan2025 01:58:24.692] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
+[02Jan2025 01:58:27.160] [main/ERROR] [mixin/]: Mixin config itshallnottick.mixins.json does not specify "minVersion" property
+[02Jan2025 01:58:27.174] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[02Jan2025 01:58:27.295] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[02Jan2025 01:58:27.362] [main/WARN] [mixin/]: Reference map 'ambientsounds.mixins.refmap.json' for ambientsounds.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Jan2025 01:58:27.593] [main/WARN] [mixin/]: Error loading class: atomicstryker/multimine/client/MultiMineClient (java.lang.ClassNotFoundException: atomicstryker.multimine.client.MultiMineClient)
+[02Jan2025 01:58:27.594] [main/WARN] [mixin/]: @Mixin target atomicstryker.multimine.client.MultiMineClient was not found treechop.forge.compat.mixins.json:MultiMineMixin
+[02Jan2025 01:58:35.975] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[02Jan2025 01:58:38.701] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[02Jan2025 01:58:38.727] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[02Jan2025 01:58:39.845] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
+[02Jan2025 01:58:39.846] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
+[02Jan2025 01:58:39.920] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[02Jan2025 01:58:41.991] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@5476f67a has been registered twice for the same name treechop:chop_wood.
+[02Jan2025 01:58:46.405] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init/]: From The Fog Loaded Successfully!
+[02Jan2025 01:58:46.618] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/end-biomes.json5" was read.
+[02Jan2025 01:58:46.715] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/nether-biomes.json5" was read.
+[02Jan2025 01:58:46.940] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/overworld/byg-overworld-biomes.json5" was read.
+[02Jan2025 01:58:46.956] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/surface_rules/overworld_surface_rules.json5" was read.
+[02Jan2025 01:58:47.074] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/surface_rules/end_surface_rules.json5" was read.
+[02Jan2025 01:58:47.085] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/cgm/update.json
+[02Jan2025 01:58:47.107] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/surface_rules/nether_surface_rules.json5" was read.
+[02Jan2025 01:58:47.162] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/growing-patterns.json5" was read.
+[02Jan2025 01:58:47.262] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/trades.json5" was read.
+[02Jan2025 01:58:47.289] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/settings.json5" was read.
+[02Jan2025 01:58:47.295] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/biomepedia.json5" was read.
+[02Jan2025 01:58:47.429] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: Created compressed zip back up for "/workspaces/server-tecnico/servidor_minecraft/config/byg" in "/workspaces/server-tecnico/servidor_minecraft/config/byg/backups/last_working_configs_backup.zip"
+[02Jan2025 01:58:47.443] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: BYG: Added strippable Blocks...
+[02Jan2025 01:58:47.587] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Found status: BETA Current: 1.3.7 Target: null
+[02Jan2025 01:58:47.587] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[02Jan2025 01:58:47.615] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:aiming for minecraft:player
+[02Jan2025 01:58:47.615] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:reloading for minecraft:player
+[02Jan2025 01:58:47.616] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:shooting for minecraft:player
+[02Jan2025 01:58:47.712] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2370!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2370!/:?]
@@ -58,29 +53,34 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2370!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
 	... 6 more
-[02Jan2025 01:06:54.287] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
-[02Jan2025 01:06:54.293] [main/INFO] [terrablender/]: Registered region byg:region_1 to index 2 for type OVERWORLD
-[02Jan2025 01:06:54.293] [main/INFO] [terrablender/]: Registered region byg:region_2 to index 3 for type OVERWORLD
-[02Jan2025 01:06:54.294] [main/INFO] [terrablender/]: Registered region byg:region_3 to index 4 for type OVERWORLD
-[02Jan2025 01:06:54.301] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[02Jan2025 01:06:54.302] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
-[02Jan2025 01:06:54.304] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[02Jan2025 01:06:54.304] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
-[02Jan2025 01:06:54.352] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ht.treechop.compat.Jade
-[02Jan2025 01:06:54.366] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[02Jan2025 01:06:54.387] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[02Jan2025 01:06:54.398] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[02Jan2025 01:06:54.400] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
-[02Jan2025 01:06:54.404] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
-[02Jan2025 01:06:54.426] [main/INFO] [potionstudios.byg.BYG/]: BYG: Compostible Blocks Added!
-[02Jan2025 01:06:54.428] [main/INFO] [potionstudios.byg.BYG/]: BYG: Added tillables!
-[02Jan2025 01:06:54.431] [main/INFO] [potionstudios.byg.BYG/]: BYG: Added Flammables!
-[02Jan2025 01:06:54.435] [main/INFO] [potionstudios.byg.BYG/]: BYG: "Load Complete" Event Complete!
-[02Jan2025 01:06:54.445] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: AHEAD Current: 0.6.11-22 Target: null
-[02Jan2025 01:06:54.445] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[02Jan2025 01:06:54.565] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.6.1 Target: null
-[02Jan2025 01:06:54.572] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[02Jan2025 01:06:54.606] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[02Jan2025 01:58:47.716] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[02Jan2025 01:58:47.735] [main/INFO] [potionstudios.byg.BYG/]: Initializing BYG network...
+[02Jan2025 01:58:47.742] [main/INFO] [potionstudios.byg.BYG/]: Initialized BYG network!
+[02Jan2025 01:58:47.757] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[02Jan2025 01:58:47.758] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[02Jan2025 01:58:47.758] [main/INFO] [terrablender/]: Registered region byg:region_0 to index 1 for type OVERWORLD
+[02Jan2025 01:58:47.760] [main/INFO] [terrablender/]: Registered region byg:region_1 to index 2 for type OVERWORLD
+[02Jan2025 01:58:47.763] [main/INFO] [terrablender/]: Registered region byg:region_2 to index 3 for type OVERWORLD
+[02Jan2025 01:58:47.764] [main/INFO] [terrablender/]: Registered region byg:region_3 to index 4 for type OVERWORLD
+[02Jan2025 01:58:47.767] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[02Jan2025 01:58:47.767] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[02Jan2025 01:58:47.770] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[02Jan2025 01:58:47.770] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[02Jan2025 01:58:47.829] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ht.treechop.compat.Jade
+[02Jan2025 01:58:47.846] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[02Jan2025 01:58:47.858] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[02Jan2025 01:58:47.868] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[02Jan2025 01:58:47.870] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
+[02Jan2025 01:58:47.872] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
+[02Jan2025 01:58:47.887] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: AHEAD Current: 0.6.11-22 Target: null
+[02Jan2025 01:58:47.887] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[02Jan2025 01:58:47.908] [main/INFO] [potionstudios.byg.BYG/]: BYG: Compostible Blocks Added!
+[02Jan2025 01:58:47.911] [main/INFO] [potionstudios.byg.BYG/]: BYG: Added tillables!
+[02Jan2025 01:58:47.922] [main/INFO] [potionstudios.byg.BYG/]: BYG: Added Flammables!
+[02Jan2025 01:58:47.926] [main/INFO] [potionstudios.byg.BYG/]: BYG: "Load Complete" Event Complete!
+[02Jan2025 01:58:48.008] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.6.1 Target: null
+[02Jan2025 01:58:48.009] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[02Jan2025 01:58:48.035] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2370!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2370!/:?]
@@ -95,15 +95,15 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2370!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
 	... 6 more
-[02Jan2025 01:06:54.609] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[02Jan2025 01:06:54.757] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.4.12
-[02Jan2025 01:06:54.758] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
-[02Jan2025 01:06:55.366] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.19.2-1.0.17 Target: null
-[02Jan2025 01:06:58.148] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[02Jan2025 01:07:00.884] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/server-tecnico/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23171!/assets/.mcassetsroot' uses unexpected schema
-[02Jan2025 01:07:00.884] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/server-tecnico/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23171!/data/.mcassetsroot' uses unexpected schema
-[02Jan2025 01:07:03.469] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[02Jan2025 01:07:04.794] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:pressing/compat/byg/lush_grass_path
+[02Jan2025 01:58:48.036] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[02Jan2025 01:58:48.147] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.4.12
+[02Jan2025 01:58:48.147] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[02Jan2025 01:58:48.667] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.19.2-1.0.17 Target: null
+[02Jan2025 01:58:52.220] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02Jan2025 01:58:55.203] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/server-tecnico/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23171!/assets/.mcassetsroot' uses unexpected schema
+[02Jan2025 01:58:55.203] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/server-tecnico/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23171!/data/.mcassetsroot' uses unexpected schema
+[02Jan2025 01:58:57.952] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[02Jan2025 01:58:59.196] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:pressing/compat/byg/lush_grass_path
 com.google.gson.JsonSyntaxException: Unknown item 'byg:lush_grass'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:275) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -137,8 +137,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'byg:lush_grass'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
-[02Jan2025 01:07:04.796] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe simpleplanes:plane_book as it's serializer returned null
-[02Jan2025 01:07:04.813] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:milling/compat/byg/orchid
+[02Jan2025 01:58:59.200] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe simpleplanes:plane_book as it's serializer returned null
+[02Jan2025 01:58:59.231] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:milling/compat/byg/orchid
 com.google.gson.JsonSyntaxException: Unknown item 'byg:orchid'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:275) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -172,7 +172,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'byg:orchid'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
-[02Jan2025 01:07:04.816] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:milling/compat/byg/purple_rose
+[02Jan2025 01:58:59.236] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:milling/compat/byg/purple_rose
 com.google.gson.JsonSyntaxException: Unknown item 'byg:purple_rose'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:275) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -206,7 +206,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'byg:purple_rose'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
-[02Jan2025 01:07:04.838] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:milling/compat/byg/compat/byg/winter_cyclamen
+[02Jan2025 01:58:59.260] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:milling/compat/byg/compat/byg/winter_cyclamen
 com.google.gson.JsonSyntaxException: Unknown item 'byg:compat/byg/winter_cyclamen'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:275) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -240,7 +240,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'byg:compat/byg/winter_cyclame
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
-[02Jan2025 01:07:04.846] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:milling/compat/byg/lolipop_flower
+[02Jan2025 01:58:59.268] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:milling/compat/byg/lolipop_flower
 com.google.gson.JsonSyntaxException: Unknown item 'byg:lolipop_flower'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:275) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -274,7 +274,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'byg:lolipop_flower'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
-[02Jan2025 01:07:04.875] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:milling/compat/byg/compat/byg/white_sage
+[02Jan2025 01:58:59.290] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:milling/compat/byg/compat/byg/white_sage
 com.google.gson.JsonSyntaxException: Unknown item 'byg:compat/byg/white_sage'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:275) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -308,8 +308,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'byg:compat/byg/white_sage'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
-[02Jan2025 01:07:04.888] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 24 recipes
-[02Jan2025 01:07:05.361] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
+[02Jan2025 01:58:59.298] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 24 recipes
+[02Jan2025 01:58:59.680] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -325,103 +325,99 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:85) ~[server-1.19.2-20220805.130853-srg.jar%23171!/:?]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 6 more
-[02Jan2025 01:07:05.530] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3552 advancements
-[02Jan2025 01:07:08.046] [main/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/nether-biomes.json5" was read.
-[02Jan2025 01:07:08.050] [main/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/end-biomes.json5" was read.
-[02Jan2025 01:07:08.077] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
-[02Jan2025 01:07:08.077] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[02Jan2025 01:07:08.078] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[02Jan2025 01:07:08.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[02Jan2025 01:07:08.264] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[02Jan2025 01:07:08.316] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[02Jan2025 01:07:08.418] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02Jan2025 01:07:08.420] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[02Jan2025 01:07:08.421] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02Jan2025 01:07:08.421] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[02Jan2025 01:07:08.603] [Server thread/INFO] [Framework/]: Loading server configs...
-[02Jan2025 01:07:09.215] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[02Jan2025 01:07:09.217] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[02Jan2025 01:07:09.666] [Server thread/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/surface_rules/overworld_surface_rules.json5" was read.
-[02Jan2025 01:07:09.691] [Server thread/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/surface_rules/end_surface_rules.json5" was read.
-[02Jan2025 01:07:09.694] [Server thread/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/surface_rules/nether_surface_rules.json5" was read.
-[02Jan2025 01:07:09.707] [Server thread/INFO] [potionstudios.byg.BYG/]: Loading dimension "minecraft:the_nether" with biome source: "byg:nether".
-[02Jan2025 01:07:09.709] [Server thread/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/surface_rules/overworld_surface_rules.json5" was read.
-[02Jan2025 01:07:09.733] [Server thread/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/surface_rules/end_surface_rules.json5" was read.
-[02Jan2025 01:07:09.736] [Server thread/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/surface_rules/nether_surface_rules.json5" was read.
-[02Jan2025 01:07:09.746] [Server thread/INFO] [potionstudios.byg.BYG/]: Loading dimension "minecraft:the_end" with biome source: "byg:end".
-[02Jan2025 01:07:09.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[02Jan2025 01:07:19.751] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Jan2025 01:07:19.753] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Jan2025 01:07:19.754] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Jan2025 01:07:19.754] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Jan2025 01:07:19.755] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Jan2025 01:07:19.755] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Jan2025 01:07:19.756] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Jan2025 01:07:19.756] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Jan2025 01:07:19.757] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Jan2025 01:07:19.757] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Jan2025 01:07:19.758] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Jan2025 01:07:19.759] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Jan2025 01:07:19.759] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Jan2025 01:07:19.760] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Jan2025 01:07:19.761] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Jan2025 01:07:19.762] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Jan2025 01:07:19.762] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Jan2025 01:07:19.763] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Jan2025 01:07:19.763] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Jan2025 01:07:19.764] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Jan2025 01:07:19.765] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[02Jan2025 01:07:20.251] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
-[02Jan2025 01:07:20.755] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
-[02Jan2025 01:07:20.999] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11251 ms
-[02Jan2025 01:07:21.001] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (12.568s)! For help, type "help"
-[02Jan2025 01:07:21.125] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[02Jan2025 01:07:21.207] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 14
-[02Jan2025 01:07:21.208] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 17
-[02Jan2025 01:07:21.209] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 16
-[02Jan2025 01:07:21.210] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: InfernalMobsCore commonSetup completed! Modifiers ready: 27
-[02Jan2025 01:07:21.211] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: InfernalMobsCore commonSetup completed! config file at: /workspaces/server-tecnico/servidor_minecraft/./config/infernalmobs.cfg
-[02Jan2025 01:09:36.418] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
-[02Jan2025 01:09:36.463] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@b96951
-[02Jan2025 01:09:36.488] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: reinaldoelpive[/[0:0:0:0:0:0:0:1%0]:54392] logged in with entity id 92 at (457.60090517862295, 80.0, -510.75741075961946)
-[02Jan2025 01:09:36.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reinaldoelpive joined the game
-[02Jan2025 01:09:36.734] [Server thread/INFO] [Jade/]: Syncing config to reinaldoelpive (75603e7c-3e42-32a3-a3ba-b740e88c708e)
-[02Jan2025 01:09:39.346] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2830ms or 56 ticks behind
-[02Jan2025 01:10:14.320] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySeagull['Seagull'/1035, l='ServerLevel[world]', x=896.06, y=82.53, z=-630.11]
-[02Jan2025 01:10:28.550] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityCrow['Crow'/1276, l='ServerLevel[world]', x=757.48, y=63.95, z=0.19]
-[02Jan2025 01:10:55.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reinaldoelpive has made the advancement [Hot Stuff]
-[02Jan2025 01:13:21.817] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: reinaldoelpive lost connection: Timed out
-[02Jan2025 01:13:21.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reinaldoelpive left the game
-[02Jan2025 01:13:21.858] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[02Jan2025 01:13:28.633] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6ce57ea6
-[02Jan2025 01:13:28.654] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ALVAREZ_QWA[/[0:0:0:0:0:0:0:1%0]:55374] logged in with entity id 2170 at (108.23152680233468, 95.0, -173.86814563400463)
-[02Jan2025 01:13:28.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALVAREZ_QWA joined the game
-[02Jan2025 01:13:28.716] [Server thread/INFO] [Jade/]: Syncing config to ALVAREZ_QWA (4c6b01ce-c6eb-3caa-9903-9b5c0ea6ab32)
-[02Jan2025 01:13:51.682] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3af12354
-[02Jan2025 01:13:51.695] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: reinaldoelpive[/[0:0:0:0:0:0:0:1%0]:33282] logged in with entity id 3251 at (439.6408512382609, 64.0, -476.5720600662849)
-[02Jan2025 01:13:51.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reinaldoelpive joined the game
-[02Jan2025 01:13:51.946] [Server thread/INFO] [Jade/]: Syncing config to reinaldoelpive (75603e7c-3e42-32a3-a3ba-b740e88c708e)
-[02Jan2025 01:15:52.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALVAREZ_QWA has made the advancement [Surge Protector]
-[02Jan2025 01:15:58.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: playerrevive.chat.bleeding
-[02Jan2025 01:16:06.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALVAREZ_QWA was slain by Spider
-[02Jan2025 01:18:07.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: playerrevive.chat.bleeding
-[02Jan2025 01:18:13.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALVAREZ_QWA was slain by Zombie
-[02Jan2025 01:19:01.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: playerrevive.chat.bleeding
-[02Jan2025 01:19:09.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reinaldoelpive was slain by Spider
-[02Jan2025 01:19:14.608] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2342ms or 46 ticks behind
-[02Jan2025 01:19:27.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: playerrevive.chat.bleeding
-[02Jan2025 01:19:33.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALVAREZ_QWA was slain by Zombie
-[02Jan2025 01:20:12.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: playerrevive.chat.bleeding
-[02Jan2025 01:20:18.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALVAREZ_QWA was slain by Spider
-[02Jan2025 01:21:24.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: playerrevive.chat.bleeding
-[02Jan2025 01:21:24.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: playerrevive.chat.bleeding
-[02Jan2025 01:21:29.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reinaldoelpive walked into fire whilst fighting Zombie
-[02Jan2025 01:21:31.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALVAREZ_QWA was blown up by Creeper
-[02Jan2025 01:29:47.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reinaldoelpive has completed the challenge [Forager]
-[02Jan2025 01:33:40.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALVAREZ_QWA has made the advancement [Stone Age]
-[02Jan2025 01:34:32.075] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ALVAREZ_QWA lost connection: You logged in from another location
-[02Jan2025 01:34:32.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALVAREZ_QWA left the game
-[02Jan2025 01:34:32.083] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ALVAREZ_QWA[/[0:0:0:0:0:0:0:1%0]:34202] logged in with entity id 14755 at (325.81952633406246, 101.0, -372.30000001192093)
-[02Jan2025 01:34:32.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALVAREZ_QWA joined the game
-[02Jan2025 01:34:32.481] [Server thread/INFO] [Jade/]: Syncing config to ALVAREZ_QWA (4c6b01ce-c6eb-3caa-9903-9b5c0ea6ab32)
-[02Jan2025 01:45:31.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reinaldoelpive has made the advancement [Suit Up]
+[02Jan2025 01:58:59.896] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3552 advancements
+[02Jan2025 01:59:02.433] [main/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/nether-biomes.json5" was read.
+[02Jan2025 01:59:02.437] [main/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/end-biomes.json5" was read.
+[02Jan2025 01:59:02.582] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[02Jan2025 01:59:02.584] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[02Jan2025 01:59:02.584] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[02Jan2025 01:59:02.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[02Jan2025 01:59:02.797] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[02Jan2025 01:59:02.831] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[02Jan2025 01:59:02.935] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02Jan2025 01:59:02.936] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[02Jan2025 01:59:02.936] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02Jan2025 01:59:02.936] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[02Jan2025 01:59:03.180] [Server thread/INFO] [Framework/]: Loading server configs...
+[02Jan2025 01:59:03.820] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[02Jan2025 01:59:03.821] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[02Jan2025 01:59:04.235] [Server thread/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/surface_rules/overworld_surface_rules.json5" was read.
+[02Jan2025 01:59:04.257] [Server thread/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/surface_rules/end_surface_rules.json5" was read.
+[02Jan2025 01:59:04.259] [Server thread/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/surface_rules/nether_surface_rules.json5" was read.
+[02Jan2025 01:59:04.270] [Server thread/INFO] [potionstudios.byg.BYG/]: Loading dimension "minecraft:the_nether" with biome source: "byg:nether".
+[02Jan2025 01:59:04.271] [Server thread/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/surface_rules/overworld_surface_rules.json5" was read.
+[02Jan2025 01:59:04.296] [Server thread/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/surface_rules/end_surface_rules.json5" was read.
+[02Jan2025 01:59:04.298] [Server thread/INFO] [potionstudios.byg.BYG/]: "/workspaces/server-tecnico/servidor_minecraft/config/byg/surface_rules/nether_surface_rules.json5" was read.
+[02Jan2025 01:59:04.306] [Server thread/INFO] [potionstudios.byg.BYG/]: Loading dimension "minecraft:the_end" with biome source: "byg:end".
+[02Jan2025 01:59:04.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[02Jan2025 01:59:05.004] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[02Jan2025 01:59:05.182] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[02Jan2025 01:59:07.949] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[02Jan2025 01:59:09.590] [Netty Epoll Server IO #4/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[02Jan2025 01:59:11.969] [Netty Epoll Server IO #5/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[02Jan2025 01:59:13.117] [Netty Epoll Server IO #6/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[02Jan2025 01:59:14.000] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jan2025 01:59:14.001] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jan2025 01:59:14.002] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jan2025 01:59:14.003] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jan2025 01:59:14.003] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jan2025 01:59:14.004] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jan2025 01:59:14.005] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jan2025 01:59:14.005] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jan2025 01:59:14.006] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jan2025 01:59:14.010] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jan2025 01:59:14.011] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jan2025 01:59:14.012] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jan2025 01:59:14.015] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jan2025 01:59:14.017] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jan2025 01:59:14.017] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jan2025 01:59:14.018] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jan2025 01:59:14.019] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jan2025 01:59:14.019] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jan2025 01:59:14.020] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jan2025 01:59:14.021] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jan2025 01:59:14.312] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Jan2025 01:59:14.809] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
+[02Jan2025 01:59:15.309] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 40%
+[02Jan2025 01:59:15.825] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
+[02Jan2025 01:59:16.310] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 99%
+[02Jan2025 01:59:16.401] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 12092 ms
+[02Jan2025 01:59:16.407] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (13.459s)! For help, type "help"
+[02Jan2025 01:59:16.773] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[02Jan2025 01:59:16.895] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 14
+[02Jan2025 01:59:16.898] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 17
+[02Jan2025 01:59:16.899] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 16
+[02Jan2025 01:59:16.903] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: InfernalMobsCore commonSetup completed! Modifiers ready: 27
+[02Jan2025 01:59:16.905] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: InfernalMobsCore commonSetup completed! config file at: /workspaces/server-tecnico/servidor_minecraft/./config/infernalmobs.cfg
+[02Jan2025 01:59:24.174] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[02Jan2025 01:59:24.238] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5aeab7f7
+[02Jan2025 01:59:24.295] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ALVAREZ_QWA[/[0:0:0:0:0:0:0:1%0]:43418] logged in with entity id 90 at (182.98222542107416, -25.0, -280.4327116687862)
+[02Jan2025 01:59:24.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALVAREZ_QWA joined the game
+[02Jan2025 01:59:24.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALVAREZ_QWA has made the advancement [Suit Up]
+[02Jan2025 01:59:24.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALVAREZ_QWA has made the advancement [Isn't It Iron Pick]
+[02Jan2025 01:59:24.999] [Server thread/INFO] [Jade/]: Syncing config to ALVAREZ_QWA (4c6b01ce-c6eb-3caa-9903-9b5c0ea6ab32)
+[02Jan2025 01:59:25.452] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@748fcfaa
+[02Jan2025 01:59:25.561] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: reinaldoelpive[/[0:0:0:0:0:0:0:1%0]:43420] logged in with entity id 91 at (182.30000001192093, -27.768476202412987, -280.30000001192093)
+[02Jan2025 01:59:25.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reinaldoelpive joined the game
+[02Jan2025 01:59:25.955] [Server thread/INFO] [Jade/]: Syncing config to reinaldoelpive (75603e7c-3e42-32a3-a3ba-b740e88c708e)
+[02Jan2025 01:59:26.625] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
+[02Jan2025 02:00:10.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reinaldoelpive has made the advancement [Sneak 100]
+[02Jan2025 02:00:13.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALVAREZ_QWA has made the advancement [Sneak 100]
+[02Jan2025 02:00:48.818] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: reinaldoelpive lost connection: You logged in from another location
+[02Jan2025 02:00:48.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reinaldoelpive left the game
+[02Jan2025 02:00:48.866] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4fa82da7
+[02Jan2025 02:00:49.659] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[02Jan2025 02:00:49.663] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: reinaldoelpive[/[0:0:0:0:0:0:0:1%0]:55254] logged in with entity id 1491 at (177.69999998807907, -44.0, -281.71903340064773)
+[02Jan2025 02:00:49.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: reinaldoelpive joined the game
+[02Jan2025 02:00:50.158] [Server thread/INFO] [Jade/]: Syncing config to reinaldoelpive (75603e7c-3e42-32a3-a3ba-b740e88c708e)
+[02Jan2025 02:01:50.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALVAREZ_QWA has made the advancement [Diamonds!]
+[02Jan2025 02:03:23.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: playerrevive.chat.bleeding
+[02Jan2025 02:03:43.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: playerrevive.chat.bleeding
+[02Jan2025 02:04:13.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: playerrevive.chat.bleeding
+[02Jan2025 02:04:42.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: playerrevive.chat.bleeding
+[02Jan2025 02:07:55.016] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ALVAREZ_QWA lost connection: Timed out
+[02Jan2025 02:07:55.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALVAREZ_QWA left the game
+[02Jan2025 02:07:59.058] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@631cc28c
+[02Jan2025 02:07:59.068] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ALVAREZ_QWA[/[0:0:0:0:0:0:0:1%0]:44680] logged in with entity id 1921 at (212.78143031055563, -59.0, -275.123107036636)
+[02Jan2025 02:07:59.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALVAREZ_QWA joined the game
+[02Jan2025 02:07:59.479] [Server thread/INFO] [Jade/]: Syncing config to ALVAREZ_QWA (4c6b01ce-c6eb-3caa-9903-9b5c0ea6ab32)
